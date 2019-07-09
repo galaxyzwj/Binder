@@ -243,6 +243,8 @@
 07-08 03:06:07.626  4435  4435 D TeleScreen|JefsClass: skip package: com.tencent.mobileqq, sourceId: null
 07-08 03:06:07.627  4435  4516 D VerifyDevLockManagerImpl: checkVerifyDevLockSmsResp ssoSeq:13974 msfCmd:unknown ret:1001 busCode:1000
 07-08 03:06:07.627  4435  4516 D MSF.D.RespHandleUtil: handle fmsg:FromServiceMsg msName:unknown ssoSeq:13974 failCode:1000 errorMsg: uin:531987464 serviceCmd:MessageSvc.PbBindUinGetMsg appId:537061740 appSeq:109
+
+>>>>>>>>>>>>>ForwardRecentActivity 为 界面的另一个activity
 07-08 03:06:07.627   916 12327 I ActivityManager: START u0 {dat=content://com.estrongs.files/storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt flg=0x40000 cmp=com.tencent.mobileqq/.activity.ForwardRecentActivity (has extras)} from uid 10078
 07-08 03:06:07.627  4471  4631 I MSF.S.AppProcessManager: SendToApp process:com.tencent.mobileqq fromServiceMsg: FromServiceMsg msName:unknown ssoSeq:13974 serviceCmd:MessageSvc.PbBindUinGetMsg appSeq:109 failCode:1000 cost=3 needBoot=false
 07-08 03:06:07.628  4435  4516 D mqq     : [MSF Receive]MessageSvc.PbBindUinGetMsg appSeq:109  QQAppInterface@166256078  cost=570ms.
@@ -256,7 +258,8 @@
 07-08 03:06:07.629  4435  4516 D printPBuffer: 080012001A1E08C3D792E90510C3D792E905288ACAF59A0158839AF9F00768C3D792E905200230C4F684B603380042004800
 07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: subaccount <---handleGetSubC2CMessageResp_PB ssoSeq:-1 msgStruct.cReplyCode: 0,hasSyncCookie:true,syncFlag:2
 07-08 03:06:07.629   671   671 D QCOM PowerHAL: LAUNCH HINT: ON
-07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: setStatus() subUin=918633284 status=1
+
+07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: setStatus() subUin=918633284 status=1 >>>>>>>>>>>>> 显示另一个QQ账号
 07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: getAllMessage() subUin:918633284 mspSubMsg=containsKey=false
 07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: subaccount handleGetSubC2CMessageResp_PB  cookie = 
 07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: updateCookie() subUin=918633284 cookie=30
@@ -295,6 +298,7 @@
 07-08 03:06:07.723  4435  4435 D Q.db.Cache.RecentUserCache: getRecentList, size = 14
 07-08 03:06:07.723  4435  4435 D CrmUtils: isQiye after getSimpleInfo value is false
 07-08 03:06:07.723  4435  4435 D CrmUtils: isQiye after getSimpleInfo value is false
+》》》》》》刷新最近的QQ显示列表
 07-08 03:06:07.723  4435  4435 I ForwardOption.ForwardEntranceActivity: refreshRecentList 01 forwardList size is: 5
 07-08 03:06:07.723  4435  4435 I ForwardOption.ForwardEntranceActivity: refreshRecentList forwardList size is: 5
 07-08 03:06:07.724  4435  4457 D Q.contacttab.: findTroopInfo, troopUin: TroopInfo: {uin = 224572805, name = 《逆天神医》书友群}, findDB: true, containExited: false, hasFind: false
