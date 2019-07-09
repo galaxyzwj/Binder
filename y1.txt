@@ -1,0 +1,398 @@
+--------- beginning of main
+07-08 03:06:04.673  4435  4458 I SplashAD: idsWithTime = 
+07-08 03:06:04.982  4435  4458 D Q.Memory.MemoryManager: Report memory do not need report
+07-08 03:06:04.983  4435  4458 E AutoMonitor: FileLooper OOT cost=310, android.os.Handler|null|5
+--------- beginning of system
+07-08 03:06:06.861   916  1216 I ActivityManager: START u0 {act=android.intent.action.VIEW dat=content://com.estrongs.files/storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt typ=text/plain flg=0x10000000 cmp=com.tencent.mobileqq/.activity.JumpActivity (has extras)} from uid 10079
+07-08 03:06:06.866   643  2614 I ACDB-LOADER: ACDB AFE returned = -19
+07-08 03:06:06.866   643  2614 D hardware_info: hw_info_append_hw_type : device_name = speaker
+07-08 03:06:06.866   643  2614 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+07-08 03:06:06.866   643  2614 D audio_route: Apply path: speaker
+07-08 03:06:06.866   643  2614 D audio_hw_primary: enable_audio_route: usecase(1) apply and update mixer path: low-latency-playback speaker
+07-08 03:06:06.866   643  2614 D audio_route: Apply path: low-latency-playback speaker
+07-08 03:06:06.867  1951  1956 E ANDR-PERF-OPTSHANDLER: Warning: Resource [2, 0] not supported for core 1. Instead use resource for core 0
+07-08 03:06:06.867  1951  1956 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [2, 2, 0]
+07-08 03:06:06.869   671   671 D QCOM PowerHAL: LAUNCH HINT: ON
+07-08 03:06:06.871   671   671 D QCOM PowerHAL: Activity launch hint handled
+07-08 03:06:06.880 29680 29680 D CRAB    : [main(2): null:4] - ##onActivityPaused com.estrongs.android.pop.view.FileExplorerActivity
+07-08 03:06:06.883  4435  4435 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@3a0effa
+07-08 03:06:06.897   643  2614 D audio_hw_primary: out_write: retry previous failed cal level set
+07-08 03:06:06.905  4435  4435 I ImmersiveUtils: MANUFACTURER = google, MODEL = AOSP on msm8996
+07-08 03:06:06.908  4435  4435 I qqBaseActivity: [24045576]JumpActivity process id =4435 onCreate task : 51
+07-08 03:06:06.908  4435  4435 D JumpAction: JumpActivity doOnCreate()
+07-08 03:06:06.908  4435  4435 D JumpAction: reportJumpArguments action=android.intent.action.VIEW; data=content://com.estrongs.files/storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt
+07-08 03:06:06.908  4435  4435 D StatisticCollector: event report: JA_ARGUMENTS true time:0 size:0
+07-08 03:06:06.909  4435  4435 D ThreadManager: 787-jump_action_thread
+07-08 03:06:06.912  4435  4435 D JumpForwardPkgManager: getCallerReferrerPkg :
+07-08 03:06:06.913  4435  5051 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:reportRdm ssoSeq:-1 appId:537061740 appSeq:46022 uin:0 sCmd:App_reportRDM t:30000 needResp:false needQuickSend:false strategy:-1
+07-08 03:06:06.914  4435  5052 D UriParserPathHelper: uri= content://com.estrongs.files/storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt
+07-08 03:06:06.916  4435  4435 D qqBaseActivity: [24045576]JumpActivity onStart 1
+07-08 03:06:06.916  4435  4435 I QQNotification: MsgPushReportHelper notify id:0 is InValid
+07-08 03:06:06.917  4435  4435 D systembar: mChatBarComp init()
+07-08 03:06:06.917  4435  4435 D SystemBarTintManager: setStatusBarTintEnabled enabled = true
+07-08 03:06:06.917  4435  4435 D Q.gesturelock.util: getAppForground.uin=,isAppFroground=false
+07-08 03:06:06.918  4435  4435 D qqBaseActivity: [24045576]JumpActivity onResume .mAppForground = false,mCanLock=true HeapAlloc=17429 KB HeapFree=1428 KB HeapMax=262144 KB
+07-08 03:06:06.918  4435  4435 D Q.gesturelock.util: getJumpLock.uin=531987464,isjumplock=false
+07-08 03:06:06.918  4435  4435 D GuardManager: state change:1
+07-08 03:06:06.918  4435  4435 I BridgeHelper: get GeneralEntryConfigManager instancegInstance:cooperation.pluginbridge.BridgeHelper@f5ebb24uin:531987464
+07-08 03:06:06.918  4435  4458 D GuardManager: BG_GUARD onEvent RESUME, null, 1, 1
+07-08 03:06:06.918  4435  4457 D plugin_tag: ActivityLifecycle onResume
+07-08 03:06:06.918  4435  4457 D         : NFCActivityLifecycleCallback onResume com.tencent.mobileqq
+07-08 03:06:06.923  4435  5052 D CheckForward.Security: prepareFileInfoAndReq : uri= content://com.estrongs.files/storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt, path= /storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt
+07-08 03:06:06.923  4435  5052 D CheckForward.Security: sendCheckFileShareReq path len= 1, action=android.intent.action.VIEW
+07-08 03:06:06.923  4435  5052 D CheckForward.Security: setRequestCommonFiled flag =0 ,pkg: 
+07-08 03:06:06.923  4435  5052 D CheckForward.Security: sendCheckFileShareReq path /storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt
+07-08 03:06:06.925  4435  5052 D CheckForward.Security: sendCheckFileShareReq md5= 1722C99C6E2B161C1934C9F4DBCF35E3
+07-08 03:06:06.926  4435  5052 D CheckForward.JumpShareUtils: getSHA1 = 8549D7C82707AD7FF5DA951BA6B8F8BA2126A795
+07-08 03:06:06.927  4435  5052 D CheckForwardServlet: onSend with cmd: OidbSvc.0xc78_1
+07-08 03:06:06.928  4471  4898 D MSF.C.NetConnTag: add 13972 cmd:BSo0NgkuJnR6OzNjYgd0 uin: *7464 len: 129 msg to GRAfehY3IjMkDjUmPT0 delayWaitSendList
+07-08 03:06:06.928  4435  5052 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:unknown ssoSeq:-1 appId:537061740 appSeq:107 uin:531987464 sCmd:OidbSvc.0xc78_1 t:30000 needResp:true needQuickSend:false strategy:0
+07-08 03:06:06.928  4435  5052 D mqq     : [MSF Send]OidbSvc.0xc78_1 appSeq:107  QQAppInterface@166256078  from aobk
+07-08 03:06:06.928  4435  5052 D TeleScreen|CheckForwardManager: sendCheckShareReq
+07-08 03:06:06.934  4435  4435 D qqBaseActivity: doOnWindowFocusChanged, isFocused[true], appIsNull[false], curName[com.tencent.mobileqq.activity.JumpActivity]
+07-08 03:06:06.934  4435  4435 D notification: BaseActivity doOnWindowFocusChanged removeNotification
+07-08 03:06:06.937  4435  5054 D MobileQQServiceBase: req cmd: CMD_STOP_NOTIFIYCATION
+07-08 03:06:06.937  4435  5054 D SUB_ACCOUNT: clearAllUnNotifySenderNum()
+07-08 03:06:06.937  4435  5054 I QQNotification: MobileQQService.stopForegroundCompat cancel id:275
+07-08 03:06:06.937  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:265
+07-08 03:06:06.937  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:267
+07-08 03:06:06.938  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:274
+07-08 03:06:06.938  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:236
+07-08 03:06:06.939  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:268
+07-08 03:06:06.940  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:272
+07-08 03:06:06.941  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:271
+07-08 03:06:06.942  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:273
+07-08 03:06:06.942  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:239
+07-08 03:06:06.943  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:266
+07-08 03:06:06.944   671   671 D QCOM PowerHAL: LAUNCH HINT: OFF
+07-08 03:06:06.945  4435  5053 D PushNoticeManager: setRead -1
+07-08 03:06:06.945  4435  5053 D notification: removeNotification
+07-08 03:06:06.962   916   975 I ActivityManager: Displayed com.tencent.mobileqq/.activity.JumpActivity: +85ms
+07-08 03:06:07.017  4435  4457 I mqq     : 1, com.tencent.mobileqq, 112801415, 1, rt = com.tencent.mobileqq.app.QQAppInterface@9e8ddce
+07-08 03:06:07.017  4435  4457 D QQAppInterface: onRunningForeground
+07-08 03:06:07.017  4435  4457 D Q.unread.Proxy: getPublicAccountConversationRedMask uin=2290230341 unreadexstr=0
+07-08 03:06:07.018  4435  4457 D Q.msg.QQMessageFacade: getUnreadMsgsNum subaccount info.uin=918633284  info.type=7000
+07-08 03:06:07.018  4435  4457 D Q.unread.Proxy: getPublicAccountConversationRedMask uin=3046055438 unreadexstr=0
+07-08 03:06:07.019  4435  4457 D Q.msg.QQMessageFacade: getUnreadMsgsNum type=2{[2290230341,1008,1][3046055438,1008,1]}
+07-08 03:06:07.020  4435  4457 D ServiceAccountFolderManager: getFolderUnreadNum->mFolderUnreadNum:4
+07-08 03:06:07.020  4435  4457 D ReadInJoyHelper: 531987464 isShowKandianTab, isShowKandian = 1
+07-08 03:06:07.021  4435  4457 D ReadInJoyHelper: 531987464 isShowKandianTab, isShowKandian = 1
+07-08 03:06:07.021  4435  4457 D ReadInJoyHelper: isShowMainVideoTabNew, isShowMainVideo = 0
+07-08 03:06:07.021  4435  4457 D SUB_ACCOUNT: getStatus() findInfo status=1
+07-08 03:06:07.021  4435  4457 D SUB_ACCOUNT: getAllSubAccountMsgUnreadNum() subuin=918633284 num=0
+07-08 03:06:07.021  4435  4457 D SUB_ACCOUNT: getAllSubAccountMsgUnreadNum() currentUin=531987464 allNum=0
+07-08 03:06:07.022  4435  4457 D ReportController: startReportLooper
+07-08 03:06:07.022  4435  4457 D QlinkReliableReport: doStartReportTimer
+07-08 03:06:07.025  4435  4457 D RedpointHandler: getNewFlagOp:send redInfo start
+07-08 03:06:07.025  4435  4457 D RedpointHandler: getNewFlagOp:sendredInfo :systemTimestamp = 1562526367;lastUpdateTimestamp = 1562526197;updateInterval = 600;updateLbsInterval = 3600;lastCheckLbsInfo = 1562525370;isDebugVersion = false
+07-08 03:06:07.026  4435  4457 D QZoneManagerImp.: getGetUndealCountFlag:0
+07-08 03:06:07.026  4435  4457 D QZoneManagerImp..UndealCount: sendGetFeedByTime. by servlet. type:2
+07-08 03:06:07.026  4435  4712 I ArkApp.Dict: getWordInitState, wordInitState=true
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=0, info.md5=A2A3DB23434C5A300064295FEA75543E, info.url=http://cdn.ark.qq.com/dict/v4/dict1-4-A2A3DB23434C5A300064295FEA75543E,  info.name =dict1-4,  info.identifier =A2A3DB23434C5A300064295FEA75543E
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=1, info.md5=794982C4EE5F42F5CED87E347732A891, info.url=http://cdn.ark.qq.com/dict/v4/dict2-794982C4EE5F42F5CED87E347732A891,  info.name =dict2,  info.identifier =794982C4EE5F42F5CED87E347732A891
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=2, info.md5=D899185ED0059F153405EE1CE5DA6E42, info.url=http://cdn.ark.qq.com/dict/v4/dict3-D899185ED0059F153405EE1CE5DA6E42,  info.name =dict3,  info.identifier =D899185ED0059F153405EE1CE5DA6E42
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON info.diffURL=http://cdn.ark.qq.com/dict/v4/dict3.diff-594A9FE8E134A915F734B1E110C8B0ED, info.diffMD5=594A9FE8E134A915F734B1E110C8B0ED, info.diffSourceMD5=CA20CC5EE963CC0BA99B3B1E01870892
+07-08 03:06:07.026  4435  4457 D Q.lebatab.UndealCount.QZoneNotifyServlet: onSend.begin.
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=3, info.md5=76506E86DAE3C640D05242352329F478, info.url=http://cdn.ark.qq.com/dict/v4/dict4-4-76506E86DAE3C640D05242352329F478,  info.name =dict4-4,  info.identifier =76506E86DAE3C640D05242352329F478
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON info.diffURL=http://cdn.ark.qq.com/dict/v4/dict4-4.diff-29F3189C6046768199355932952B0DB9, info.diffMD5=29F3189C6046768199355932952B0DB9, info.diffSourceMD5=F9A6DA264C07234FDE3CC44A3DCA91CE
+07-08 03:06:07.027  4435  4457 D Q.lebatab.UndealCount.QZoneNotifyServlet: QzoneNotifyServlet onSend byTimeType:2,isBackground_Pause:false
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=4, info.md5=B59E44A42FD962CC1F8CBB48DC7EECB2, info.url=http://cdn.ark.qq.com/dict/v4/dict5-B59E44A42FD962CC1F8CBB48DC7EECB2,  info.name =dict5,  info.identifier =B59E44A42FD962CC1F8CBB48DC7EECB2
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=6, info.md5=950B647F5B70AEE0B9D52A99EE2CC635, info.url=http://cdn.ark.qq.com/dict/v4/dict7-950B647F5B70AEE0B9D52A99EE2CC635,  info.name =dict7,  info.identifier =950B647F5B70AEE0B9D52A99EE2CC635
+07-08 03:06:07.027  4435  4457 D Q.lebatab.UndealCount.QZoneNotifyServlet: GETFEEDUNREADTYPE_SWITCHTOFORGROUND nowtime: 1562526367027,lastGetFeedTime:1562526349703,lastGetFeedTime:1562526349703difference: 17324
+07-08 03:06:07.027  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=7, info.md5=4E5DEDB782CE3476BBB75859A089AE18, info.url=http://cdn.ark.qq.com/dict/v4/dict8-4E5DEDB782CE3476BBB75859A089AE18,  info.name =dict8,  info.identifier =4E5DEDB782CE3476BBB75859A089AE18
+07-08 03:06:07.028  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=5, info.md5=34633E6AEB3254786D1F8C697B1D3A22, info.url=http://cdn.ark.qq.com/dict/v4/dict9-34633E6AEB3254786D1F8C697B1D3A22,  info.name =dict9,  info.identifier =34633E6AEB3254786D1F8C697B1D3A22
+07-08 03:06:07.028  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON info.diffURL=http://cdn.ark.qq.com/dict/v4/dict9.diff-E2618229AED8F0D84DA3FB606A0D0370, info.diffMD5=E2618229AED8F0D84DA3FB606A0D0370, info.diffSourceMD5=46596DEF022C6D7C6B9CE9D712910240
+07-08 03:06:07.028  4435  4712 I AIDictConfig: onParse getDictInfoFromJSON  info.type=8, info.md5=208B534736DF877488C2B5957E84A683, info.url=http://cdn.ark.qq.com/dict/v4/dict-daily-208B534736DF877488C2B5957E84A683,  info.name =dict-daily,  info.identifier =208B534736DF877488C2B5957E84A683
+07-08 03:06:07.028  4435  4712 D AIDictConfig: mWordDictList list size =9
+07-08 03:06:07.028  4435  4457 I UndealCount.QZoneUnreadServletLogic: getUdealCountLastGetTime: [{"key":4294967295,"value":1562684338},{"key":33,"value":1562684185},{"key":35,"value":1562682725},{"key":1001,"value":1562684185},{"key":1002,"value":1562683629},{"key":1003,"value":0},{"key":1005,"value":1562682725},{"key":1007,"value":1562684185}]
+07-08 03:06:07.028  4435  4712 I ArkApp.Dict.Update: getEffectDictIdentifier, use base dict, dict-id=725-2018-09-04_16-55-48.561
+07-08 03:06:07.028  4435  4712 I ArkApp.Dict: reloadWordData, dict already loaded, dict-id=725-2018-09-04_16-55-48.561
+07-08 03:06:07.030  4435  5055 I ArkApp.ArkLocalAppMgr: updateInstalledApps, not update time, delta=0, interval=60
+07-08 03:06:07.040  4457  4457 W QQ_SUB  : type=1400 audit(0.0:1530): avc: denied { read } for name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-08 03:06:07.049  4435  4457 I SOSO.LBS.LbsManagerService: getCachedLbsInfo business id: gdt_tangram
+07-08 03:06:07.050  4435  4457 I SOSO.LBS.LbsManagerService: getCachedLbsInfo business id: qzone_little_video_enter
+07-08 03:06:07.050  4435  4457 I Q.lebatab.UndealCount.QZoneNotifyServlet: [QZ_LBS_MODULE] mIsGettingLocation = , (now - mLastGetLocationTime) ) = 17, so return
+07-08 03:06:07.053  4435  4457 D Q.lebatab.UndealCount.QZoneNotifyServlet: onSend send success,send request time: 1562526367053
+07-08 03:06:07.054  4471  4898 D MSF.C.NetConnTag: add 13973 cmd:GRIBLjU2IAk8IH4zPywQNC4mMTgZNzA0Pg uin: *7464 len: 1159 msg to GRAfehY3IjMkDjUmPT0 delayWaitSendList
+07-08 03:06:07.055  4435  4457 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:unknown ssoSeq:-1 appId:537061740 appSeq:108 uin:531987464 sCmd:SQQzoneSvc.getUndealCount t:30000 needResp:true needQuickSend:false strategy:0
+07-08 03:06:07.055  4435  4457 D mqq     : [MSF Send]SQQzoneSvc.getUndealCount appSeq:108  QQAppInterface@166256078  from atta
+07-08 03:06:07.055  4435  4457 I QZoneManagerImp..UndealCount: sendGetFeedByTime.switch to forground.
+07-08 03:06:07.055  4435  4457 D SUB_ACCOUNT: startAllSubMessageAccountMsg() isFromPush=false
+07-08 03:06:07.055  4435  4457 D SUB_ACCOUNT: getAllSubUin() return:[918633284]
+07-08 03:06:07.055  4435  4457 D SUB_ACCOUNT: getSubAccountMessage() subUin=918633284 isFromPush=false
+07-08 03:06:07.055  4435  4457 D SUB_ACCOUNT: getSubAccountInfo() subUin=918633284
+07-08 03:06:07.056  4435  4457 D SUB_ACCOUNT: getSubAccountMessage() lockMsg later really start get subaccount message account = 531987464; sAccount = 918633284
+07-08 03:06:07.056  4435  4457 D SUB_ACCOUNT: getSubAccoundMsg_PB() start, subUin=918633284
+07-08 03:06:07.056  4435  4457 D SUB_ACCOUNT: getCookie() subUin=918633284
+07-08 03:06:07.056  4435  4457 D SUB_ACCOUNT: getSubAccoundMsg_PB() cookie=30
+07-08 03:06:07.056  4435  4457 D MobileQQServiceBase: req cmd: MessageSvc.PbBindUinGetMsg
+07-08 03:06:07.057  4435  4457 D MobileQQServiceBase: PB cmd: req cmd: MessageSvc.PbBindUinGetMsg
+07-08 03:06:07.058  4471  4898 D MSF.C.NetConnTag: add 13974 cmd:ByYjJzs/IAk8IH4EOBosNC4WOTodPTEXOSQ uin: *7464 len: 118 msg to GRAfehY3IjMkDjUmPT0 delayWaitSendList
+07-08 03:06:07.058  4435  4457 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:unknown ssoSeq:-1 appId:537061740 appSeq:109 uin:531987464 sCmd:MessageSvc.PbBindUinGetMsg t:30000 needResp:true needQuickSend:false strategy:0
+07-08 03:06:07.058  4435  4457 D mqq     : [MSF Send]MessageSvc.PbBindUinGetMsg appSeq:109  QQAppInterface@166256078  from akyn
+07-08 03:06:07.059  4435  4457 D SUB_ACCOUNT: startAllSubMessageAccountMsg() result=true forground=false
+07-08 03:06:07.059  4435  4457 D Q.qwallet.push: onQQForeground isFromGestureLock=false
+07-08 03:06:07.060  4435  4457 D ActivateFriends.Manager: do login currenDayTimeStapStr: 20190708
+07-08 03:06:07.060  4435  4457 D ActivateFriends.Manager: do login cacheCurrenDayTimeStapStr: 20190708
+07-08 03:06:07.060  4435  4457 D ActivateFriends.Manager: already fetch today's data
+07-08 03:06:07.060  4435  4457 D QQAppInterface: onResume send msg 576751
+07-08 03:06:07.061  4435  4457 D PushOpenNotify: isNotificationEnabled,  isEnabled, true
+07-08 03:06:07.061  4435  4457 D QQToast : canUseCustomToast = 1
+07-08 03:06:07.061  4435  4457 D plugin_tag: fetchPlugin :qwallet_plugin.apk
+07-08 03:06:07.061  4435  4457 D plugin_tag: installed info :null
+07-08 03:06:07.061  4435  4457 D Q.qwallet.pay: getPayCode false
+07-08 03:06:07.062  4435  4457 D QWalletConfigManager: tryGetConfig:4|-1|QWalletConfig{seriesNo=115740002, refreshType=1792, refreshTime=7200, lastReqTime=1562682723540, commonMsg='no', configs={autograp_hb={"is_autograp": 0}, gold_msg={"entry":0,"group_discuss_pop_url":"https://mqq.tenpay.com/mqq/moneytalk/adDialog.html","panel_ad":{"name":"下线公告","begin":1533630024,"end":1924963199,"url":"https://i.qianbao.qq.com/wallet/moneytalk/html/shutdown.html?_wv=1027&_wvx=10&_wvxBclr=0xf7f7f8","icon":"https://i.gtimg.cn/channel/imglib/201808/upload_900a77dace2973566459b93751a3ca93.png"}}, redPoint={"list":[]}, pubAcct_SP=, session=, redPack={"popAd":[{"skinId":1239,"url":"http://kg.qq.com/accompanydetail/index.html?mid=%s&from=singlemessage&isappinstalled=0","urlType":1},{"skinId":1058,"url":"http://vac.gtimg.cn/channel/static/socialpay/video/socialpay_1517479592116_60.mp4","urlType":2},{"skinId":1059,"url":"http://vac.gtimg.cn/channel/static/socialpay/video/socialpay_1517480517299_50.mp4","urlType":2},{"skinId":1074,"url":"http://vac.gtimg.cn/channel/static/socialpay/video/socialpay_1519816375742_85.mp4","urlType":2},{"skinId":1086,"url":"http://vac.gtimg.cn/channel/static/socialpay/video/socialpay_1525692894959_50.mp4","urlType":2},{"skinId":1245,"url":"https://i.qianbao.qq.com/act/wallet/201807/cjzc/index.html?_wv=1025&_wwv=4&pvsrc=101","urlType":1}],"prefix":"http://vac.gtimg.cn/channel/static/socialpay/skin/","riskSwitch":0,"skinMap":{"1057":{"isHideTitle":1},"1058":{"isHideTitle":1,"title":"新年快乐"},"1059":{"isHideTitle":1,"title":"新年快乐"},"1074":{"isHideTitle":1,"title":"新年快乐"},"1080":{"title":"生日快乐哟~"},"1081":{"title":"生日快乐哟~"},"1086":{"isHideTitle":1,"title":"新年快乐"},"1097":{"isHideTitle":1},"1098":{"title":"这个分数，你能达到吗？"},"1245":{"isHideTitle":1,"title":"刺激一夏，一起吃鸡"},"1248":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1249":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1250":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1251":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1252":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1253":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1254":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1255":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1256":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1257":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1258":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1259":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1260":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1261":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1262":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1263":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1264":{"isHideTitle":1,"title":"冠军属于克罗地亚！"},"1265":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1266":{"isHideTitle":1,"title":"冠军属于法兰西！"},"1363":{"isHideTitle":1},"1365":{"isHideTitle":1},"1406":{"isHideTitle":1,"title":"恭喜发财"},"1407":{"isHideTitle":1},"1411":{"isHideTitle":1},"1421":{"isHideTitle":1},"1422":{"isHideTitle":1,"title":"游侠之森"},"1423":{"isHideTitle":1,"title":"骑士佩剑"},"1424":{"isHideTitle":1,"title":"领袖战旗"},"1425":{"isHideTitle":1,"title":"王者之翼"},"1426":{"isHideTitle":1,"title":"水逆退散"},"1427":{"isHideTitle":1,"title":"水逆退散"},"1428":{"isHideTitle":1},"1429":{"isHideTitle":1},"1431":{"isHideTitle":1,"title":"游侠之森"},"1432":{"isHideTitle":1,"title":"骑士佩剑"},"1433":{"isHideTitle":1,"title":"领袖战旗"},"1434":{"isHideTitle":1,"title":"王者之翼"}},"tail":[{"color":"#E62555","skinId":1077,"url":"https://mqq.tenpay.com/mqq/action/redpacket/html/index.html?_wv=18950115","word":"QQ红包潮人"},{"color":"#E62555","skinId":1078,"url":"https://mqq.tenpay.com/mqq/action/redpacket/html/index.html?_wv=18950115","word":"QQ红包教主"},{"color":"#E62555","skinId":1251,"url":"https://i.
+07-08 03:06:07.062  4435  4457 D QQAppInterface: checkBackgroundRestricWhilteList ENTER 1562526367062
+07-08 03:06:07.066  4435  4457 D QQAppInterface: checkBackgroundRestricWhilteList END
+07-08 03:06:07.066  4435  5057 D Q.msg.MsgProxy: getMsgList1 uin 9973 , type = 9002 itemList size=0
+07-08 03:06:07.067  4435  4457 I EcshopAdHandler: On Running Foreground,login?true,current interval:1800000
+07-08 03:06:07.067  4435  4457 D QQAppInterface: **davorteng**onRunningForeground...
+07-08 03:06:07.067  4435  4457 D SmartDeviceProxyMgr: **davorteng**sendMsgProxy
+07-08 03:06:07.067  4435  4458 D AdvertisementVideoPreloadManager: startVideoDownload queueType:1
+07-08 03:06:07.067  4435  4457 D VideoExtractFrame: onEnterForeground() mHasRun = true, mHasDestory = true
+07-08 03:06:07.067  4435  4458 D AdvertisementVideoPreloadManager: startVideoDownload no task to download
+07-08 03:06:07.067  4435  4458 D AdvertisementVideoPreloadManager: resetDownload
+07-08 03:06:07.067  4435  4457 E ArkApp.ArkStateCenter: ark state change to foreground
+07-08 03:06:07.067  4435  4458 D QQAppInterface: set talkback enable: false
+07-08 03:06:07.067  4435  4457 D ReportController: addReporting:531987464||0X8004014|0X8004014|0|${count_unknown}|0|||||, 1
+07-08 03:06:07.068  4435  4457 D ReportController: handleAddReporting:r.mTag=CliOper, r.mDetail=531987464||0X8004014|0X8004014|0|${count_unknown}|0|||||, r.mDetailHashCode=-2081115013
+07-08 03:06:07.068  4435  4457 D ReportController: addReporting:531987464||0X8004015|0X8004015|0|${count_unknown}|0|||||, 1
+07-08 03:06:07.068  4435  4457 D ReportController: handleAddReporting:r.mTag=CliOper, r.mDetail=531987464||0X8004015|0X8004015|0|${count_unknown}|0|||||, r.mDetailHashCode=-789735235
+07-08 03:06:07.068  4435  5058 I rscContent_CmShowRscUpdateHandler: checkCmShowContentUpdate forceCheck:false
+07-08 03:06:07.068  4435  5058 I rscContent_CmShowRscUpdateHandler: checkCmShowContentUpdate in sJsonContentUpdateInterval:10800
+07-08 03:06:07.068  4435  4457 D PhoneContact.Manager: checkUpdateLocalContact [false, false, [02:00:00:00:00:00, +86, 17626045398, 3, false, false, false, false, false]]
+07-08 03:06:07.068  4435  4457 D PhoneContact: isBindContactOk = 6
+07-08 03:06:07.069  4435  4457 D PhoneContact.Manager: isAutoUploadContactsNotBind[02:00:00:00:00:00, +86, 17626045398, 3, false, false, false, false, false]
+07-08 03:06:07.070  4435  4435 D GuardManager: com.tencent.process.starting received with com.tencent.mobileqq at 112801415, when 112786742, 112784744
+07-08 03:06:07.072  4435  4458 D GuardManager: now login uin=531987464 isForeground=true
+07-08 03:06:07.072  4435  4458 D GuardManager: state change:3
+07-08 03:06:07.072  4435  4458 D GuardManager: BG_GUARD onEvent FG, com.tencent.mobileqq, 1, 1
+07-08 03:06:07.072  4435  4458 D GuardManager: nextState: BG_GUARD, FG_OTHER, com.tencent.mobileqq
+07-08 03:06:07.072  4435  4458 D GuardManager: FG_OTHER onEvent ENTER, com.tencent.mobileqq, 0, 0
+07-08 03:06:07.073  4435  5059 D Q.Memory.MemoryManager: clear memory, availMemSize=1669M, totalMemSize=3765M
+07-08 03:06:07.080  4435  4458 E PreDownloadScheduler: [ onAppForground ] mAppBackground = false
+07-08 03:06:07.081  4435  4458 D GuardManager: cancelTimer
+07-08 03:06:07.082  4435  4458 D BatteryStats.BgCpu: bgPrintCpuCostSofar msfrecv=7541[4516],   fts=125[4687]
+07-08 03:06:07.214  4471  4646 W Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+07-08 03:06:07.432  4471  4613 D MSF.C.NetConnTag: use full head for uin:*7464
+07-08 03:06:07.433  4471  4613 D MSF.C.NetConnTag: pa ok: 13975
+07-08 03:06:07.434  4471  4613 D MSF.C.NetConnTag: netSend ssoSeq:13975 uin:*7464 cmd:GRAfehY3IjMkDjUmPT0 15474 5053f87
+07-08 03:06:07.434  4471  4613 D MSF.C.NetConnTag: send Packet addQueue, ssoSeq=13975, uin=*7464
+07-08 03:06:07.483   665   665 I /vendor/bin/hw/android.hardware.health@2.0-service.marlin: SRAM data: 3107000
+07-08 03:06:07.549  4471  4637 D MSF.C.CodecWarpper: recv Packet ssoSeq:13973, uin:*7464
+07-08 03:06:07.549  4471  4637 D MSF.C.NetConnTag: netRecv ssoSeq:13973 uin:*7464 cmd:GRIBLjU2IAk8IH4zPywQNC4mMTgZNzA0Pg 32772 cross:0
+07-08 03:06:07.558  4435  4750 D MSF.D.Proxy:  onResponse 13973 FromServiceMsg msName:unknown ssoSeq:13973 failCode:1000 errorMsg: uin:531987464 serviceCmd:SQQzoneSvc.getUndealCount appId:537061740 appSeq:108
+07-08 03:06:07.558  4435  4750 D MSF.D.Proxy: add queue req:ToServiceMsg msName:unknown ssoSeq:13973 appId:537061740 appSeq:108 uin:531987464 sCmd:SQQzoneSvc.getUndealCount t:30000 needResp:true needQuickSend:false strategy:0 from:FromServiceMsg msName:unknown ssoSeq:13973 failCode:1000 errorMsg: uin:531987464 serviceCmd:SQQzoneSvc.getUndealCount appId:537061740 appSeq:108
+07-08 03:06:07.559  4435  4516 D VerifyDevLockManagerImpl: checkVerifyDevLockSmsResp ssoSeq:13973 msfCmd:unknown ret:1001 busCode:1000
+07-08 03:06:07.559  4471  4631 I MSF.S.AppProcessManager: SendToApp process:com.tencent.mobileqq fromServiceMsg: FromServiceMsg msName:unknown ssoSeq:13973 serviceCmd:SQQzoneSvc.getUndealCount appSeq:108 failCode:1000 cost=3 needBoot=false
+07-08 03:06:07.559  4435  4516 D MSF.D.RespHandleUtil: handle fmsg:FromServiceMsg msName:unknown ssoSeq:13973 failCode:1000 errorMsg: uin:531987464 serviceCmd:SQQzoneSvc.getUndealCount appId:537061740 appSeq:108
+07-08 03:06:07.559  4435  4516 D mqq     : [MSF Receive]SQQzoneSvc.getUndealCount appSeq:108  QQAppInterface@166256078  cost=506ms.
+07-08 03:06:07.559  4435  4516 D Q.lebatab.UndealCount.QZoneNotifyServlet: onReceive onReceive: 1562526367559
+07-08 03:06:07.570  4471  4480 W System  : A resource failed to call end. 
+07-08 03:06:07.577  4435  4516 I UndealCount.QZoneUnreadServletLogic: setUdealCountLastGetTime: [{"key":4294967295,"value":1562684355},{"key":33,"value":1562684185},{"key":35,"value":1562682725},{"key":1001,"value":1562684185},{"key":1002,"value":1562683629},{"key":1003,"value":0},{"key":1005,"value":1562682725},{"key":1007,"value":1562684185}]
+07-08 03:06:07.577  4435  4516 D QZoneManagerImp.: setGetUndealCountFlag:0
+07-08 03:06:07.577  4435  4516 I UndealCount.QZoneUnreadServletLogic: recv Qzone Unread Push: Feed实时更新未读
+07-08 03:06:07.582  4435  4516 D QZoneManagerImp.: setFeedCountAll.feedtype=1,count=1,uin
+07-08 03:06:07.582  4435  4516 D FeedAlert.: QZoneManagerImp.set feedcout map type:10000000000000000010000000000000010000010001110count change ,key=1
+07-08 03:06:07.583  4435  4516 D QZoneManagerImp.: setFeedCountAll.feedtype=2,count=7,uin
+07-08 03:06:07.583  4435  4516 D FeedAlert.: QZoneManagerImp.set feedcout map type:10000000000000000010000000000000010000010001110count change ,key=2
+07-08 03:06:07.583  4435  4516 D QZoneManagerImp.: setFeedCountAll.feedtype=3,count=0,uin
+07-08 03:06:07.583  4435  4516 D QZoneManagerImp.: setFeedCountAll.feedtype=7,count=0,uin
+07-08 03:06:07.583  4435  4516 D QZoneManagerImp.: setFeedCountAll.feedtype=28,count=0,uin
+07-08 03:06:07.583  4435  4516 D QZoneManagerImp.: setFeedCountAll.feedtype=13,count=0,uin
+07-08 03:06:07.584  4435  4516 D QZoneManagerImp.: setFeedCountAll.feedtype=1006,count=0,uin
+07-08 03:06:07.587  4435  4516 I QZConfigSqliteManager: bulkInsert finish. uri=content://com.tencent.common.config.provider.QZoneConfigProvider/table_qz_unread cost=1ms numValues=14
+07-08 03:06:07.595  4435  4516 D Q.lebanew: qzone redtypeinfo:recive undealcount rsp
+07-08 03:06:07.595  4435  4516 D StatisticCollector: event report: actQzoneUnread true time:542 size:0
+07-08 03:06:07.595  4435  5053 D Q.lebanew: qzone redtypeinfo:call notify observer
+07-08 03:06:07.595  4435  5053 D UndealCount.QZoneManagerImp.: onChange notifyQQTab type:10000000000000000010000000000000010000010001110
+07-08 03:06:07.598  4435  4516 D QZoneVipInfoManager: onSharedPreferenceChanged key = key_vip_info_bitmap_pre531987464
+07-08 03:06:07.598  4435  4516 D QZoneVipInfoManager: onSharedPreferenceChanged key = key_vip_info_personalized_vip_pre531987464
+07-08 03:06:07.598  4435  4516 D QZoneVipInfoManager: onSharedPreferenceChanged value = 163844 personlizedYellowVipUrl = null
+07-08 03:06:07.599  4435  4516 D QZoneVipInfoManager: onSharedPreferenceChanged key = key_vip_info_custom_diamond_url_pre531987464
+07-08 03:06:07.599  4435  4516 D QZoneVipInfoManager: onSharedPreferenceChanged value = 163844 personlizedYellowVipUrl = null
+07-08 03:06:07.599  4435  5060 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:reportRdm ssoSeq:-1 appId:537061740 appSeq:46023 uin:0 sCmd:App_reportRDM t:30000 needResp:false needQuickSend:false strategy:-1
+07-08 03:06:07.600  4435  4516 E UndealCount.QZoneUnreadServletLogic: creditlevel:2 message:
+07-08 03:06:07.600  4435  4516 D UndealCount.QZoneUnreadServletLogic: onReceive getFeedInterval:45000
+07-08 03:06:07.600  4435  4516 D UndealCount.QZoneUnreadServletLogic: onReceive getActiveAppInterval:5000
+07-08 03:06:07.601  4435  4516 I QZoneTitleTabManager: save config:[{"id":50,"name":"好友","actionType":0,"subActionType":0,"rememberAnchor":true}]
+07-08 03:06:07.602  4435  4516 E UndealCount.QZoneUnreadServletLogic: saveFriendPlusLiveStatus:1
+07-08 03:06:07.602  4435  4516 D ArchiveMemorySettingGuide: saveHasUserArchieveMemoryFlag:未使用过记忆封存
+07-08 03:06:07.603  4435  4516 D UndealCount.QZoneUnreadServletLogic: saveGrayOperate: 3818
+07-08 03:06:07.604  4435  4516 W UndealCount.QZoneUnreadServletLogic: get dualwarm command, 1timestamp 1562526367604
+07-08 03:06:07.621  4471  4637 D MSF.C.NetConnTag: netRecv Delay FromServiceMsg ssoSeq:-955066244 scmd: SSO.LoginMerge len: 132 uncompressed len: 132
+07-08 03:06:07.622  4471  4637 D MSF.C.CodecWarpper: recv Packet ssoSeq:13972, uin:*7464
+07-08 03:06:07.622  4471  4637 D MSF.C.NetConnTag: netRecv ssoSeq:13972 uin:*7464 cmd:BSo0NgkuJnR6OzNjYgd0 13991 cross:0
+07-08 03:06:07.623  4471  4637 D MSF.C.CodecWarpper: recv Packet ssoSeq:13974, uin:*7464
+07-08 03:06:07.623  4471  4637 D MSF.C.NetConnTag: netRecv ssoSeq:13974 uin:*7464 cmd:ByYjJzs/IAk8IH4EOBosNC4WOTodPTEXOSQ 14028 cross:0
+07-08 03:06:07.623  4435  4516 I UndealCount.QZoneUnreadServletLogic: saveMoreEntranceResConfig no Config update
+07-08 03:06:07.624  4435  4516 I UndealCount.QZoneUnreadServletLogic: save wmd config:null
+07-08 03:06:07.624  4435  4516 D mqq     : [MSF End][notifyMSFServlet]SQQzoneSvc.getUndealCount,ssoseq=13973,cost=64ms, cpucost=39(7581).
+07-08 03:06:07.624  4435  4750 D MSF.D.Proxy:  onResponse 13972 FromServiceMsg msName:unknown ssoSeq:13972 failCode:1000 errorMsg: uin:531987464 serviceCmd:OidbSvc.0xc78_1 appId:537061740 appSeq:107
+07-08 03:06:07.624  4435  4750 D MSF.D.Proxy: add queue req:ToServiceMsg msName:unknown ssoSeq:13972 appId:537061740 appSeq:107 uin:531987464 sCmd:OidbSvc.0xc78_1 t:30000 needResp:true needQuickSend:false strategy:0 from:FromServiceMsg msName:unknown ssoSeq:13972 failCode:1000 errorMsg: uin:531987464 serviceCmd:OidbSvc.0xc78_1 appId:537061740 appSeq:107
+07-08 03:06:07.624  4435  4516 D VerifyDevLockManagerImpl: checkVerifyDevLockSmsResp ssoSeq:13972 msfCmd:unknown ret:1001 busCode:1000
+07-08 03:06:07.624  4435  4516 D MSF.D.RespHandleUtil: handle fmsg:FromServiceMsg msName:unknown ssoSeq:13972 failCode:1000 errorMsg: uin:531987464 serviceCmd:OidbSvc.0xc78_1 appId:537061740 appSeq:107
+07-08 03:06:07.624  4471  4631 I MSF.S.AppProcessManager: SendToApp process:com.tencent.mobileqq fromServiceMsg: FromServiceMsg msName:unknown ssoSeq:13972 serviceCmd:OidbSvc.0xc78_1 appSeq:107 failCode:1000 cost=1 needBoot=false
+07-08 03:06:07.624  4435  4516 D mqq     : [MSF Receive]OidbSvc.0xc78_1 appSeq:107  QQAppInterface@166256078  cost=697ms.
+07-08 03:06:07.625  4435  4516 D CheckForwardServlet: onReceive with code: 1000
+07-08 03:06:07.625  4435  4516 I CheckForwardServlet: onreceive result: 0, jump: 0
+07-08 03:06:07.625  4435  4516 D mqq     : [MSF End][notifyMSFServlet]OidbSvc.0xc78_1,ssoseq=13972,cost=1ms, cpucost=1(7583).
+07-08 03:06:07.625  4435  4750 D MSF.D.Proxy:  onResponse 13974 FromServiceMsg msName:unknown ssoSeq:13974 failCode:1000 errorMsg: uin:531987464 serviceCmd:MessageSvc.PbBindUinGetMsg appId:537061740 appSeq:109
+07-08 03:06:07.625  4435  4435 D StatisticAssist: 531987464dl_open_via_qq: 7
+07-08 03:06:07.625  4435  4750 D MSF.D.Proxy: add queue req:ToServiceMsg msName:unknown ssoSeq:13974 appId:537061740 appSeq:109 uin:531987464 sCmd:MessageSvc.PbBindUinGetMsg t:30000 needResp:true needQuickSend:false strategy:0 from:FromServiceMsg msName:unknown ssoSeq:13974 failCode:1000 errorMsg: uin:531987464 serviceCmd:MessageSvc.PbBindUinGetMsg appId:537061740 appSeq:109
+07-08 03:06:07.626  4435  4435 D TeleScreen|JefsClass: skip package: com.tencent.mobileqq, sourceId: null
+07-08 03:06:07.627  4435  4516 D VerifyDevLockManagerImpl: checkVerifyDevLockSmsResp ssoSeq:13974 msfCmd:unknown ret:1001 busCode:1000
+07-08 03:06:07.627  4435  4516 D MSF.D.RespHandleUtil: handle fmsg:FromServiceMsg msName:unknown ssoSeq:13974 failCode:1000 errorMsg: uin:531987464 serviceCmd:MessageSvc.PbBindUinGetMsg appId:537061740 appSeq:109
+07-08 03:06:07.627   916 12327 I ActivityManager: START u0 {dat=content://com.estrongs.files/storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt flg=0x40000 cmp=com.tencent.mobileqq/.activity.ForwardRecentActivity (has extras)} from uid 10078
+07-08 03:06:07.627  4471  4631 I MSF.S.AppProcessManager: SendToApp process:com.tencent.mobileqq fromServiceMsg: FromServiceMsg msName:unknown ssoSeq:13974 serviceCmd:MessageSvc.PbBindUinGetMsg appSeq:109 failCode:1000 cost=3 needBoot=false
+07-08 03:06:07.628  4435  4516 D mqq     : [MSF Receive]MessageSvc.PbBindUinGetMsg appSeq:109  QQAppInterface@166256078  cost=570ms.
+07-08 03:06:07.628  4435  4516 D MobileQQServiceBase: [RES]cmd=MessageSvc.PbBindUinGetMsg app seq:109 during 0.57sec.
+07-08 03:06:07.628  4435  4516 D MobileQQServiceBase: PB cmd: recv cmd: MessageSvc.PbBindUinGetMsg
+07-08 03:06:07.629  4435  4516 D LoadingStateManager: notifyIsNotIllegalNetWork mShowIllegalNetworkBar=false
+07-08 03:06:07.629  4435  4516 D LoadingStateManager: changeConversationLoadingState mShowErrorNetworkBar=false
+07-08 03:06:07.629  4435  4516 D Q.msg.MessageHandler: onReceive success ssoSeq:-1 serviceCmd: MessageSvc.PbBindUinGetMsg, resultCode:1000
+07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: SubAccountMessageProcessor processResponse
+07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: subaccount cmd= CMD_MESSAGESERVICE_GETSUBACCOUNTMSG_PB handleGetSubC2CMessageResp_PB subUin=918633284
+07-08 03:06:07.629  4435  4516 D printPBuffer: 080012001A1E08C3D792E90510C3D792E905288ACAF59A0158839AF9F00768C3D792E905200230C4F684B603380042004800
+07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: subaccount <---handleGetSubC2CMessageResp_PB ssoSeq:-1 msgStruct.cReplyCode: 0,hasSyncCookie:true,syncFlag:2
+07-08 03:06:07.629   671   671 D QCOM PowerHAL: LAUNCH HINT: ON
+07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: setStatus() subUin=918633284 status=1
+07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: getAllMessage() subUin:918633284 mspSubMsg=containsKey=false
+07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: subaccount handleGetSubC2CMessageResp_PB  cookie = 
+07-08 03:06:07.629  4435  4516 D SUB_ACCOUNT: updateCookie() subUin=918633284 cookie=30
+07-08 03:06:07.630  4435  4516 D StatisticCollector: event report: actSBGetMsg true time:0 size:0
+07-08 03:06:07.631   671   671 D QCOM PowerHAL: Activity launch hint handled
+07-08 03:06:07.632  4435  4457 D MessageObserver: onUpdate NOTIFY_TYPE_SUBACCOUNT_GET_MSG
+07-08 03:06:07.633  4435  4457 I chatty  : uid=10078(com.tencent.mobileqq) QQ_SUB identical 2 lines
+07-08 03:06:07.633  4435  4457 D MessageObserver: onUpdate NOTIFY_TYPE_SUBACCOUNT_GET_MSG
+07-08 03:06:07.633  4435  4516 D SUB_ACCOUNT: subaccount <PbGetMsg><R><---handleGetSubC2CMessageResp_PB end
+07-08 03:06:07.633  4435  4516 D Q.msg.MessageHandler: handle [cmd]=MessageSvc.PbBindUinGetMsg , cost =4
+07-08 03:06:07.633  4435  4516 D mqq     : [MSF End][notifyMSFServlet]MessageSvc.PbBindUinGetMsg,ssoseq=13974,cost=5ms, cpucost=3(7587).
+07-08 03:06:07.636  4435  5062 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:reportRdm ssoSeq:-1 appId:537061740 appSeq:46024 uin:0 sCmd:App_reportRDM t:30000 needResp:false needQuickSend:false strategy:-1
+07-08 03:06:07.639  4435  4435 D qqBaseActivity: [24045576]JumpActivity onPause HeapAlloc=23845 KB HeapFree=10346 KB
+07-08 03:06:07.639  4435  4879 D StatisticCollector: event report: unifiedMonitor true time:722 size:0
+07-08 03:06:07.639  4435  4435 I BridgeHelper: get GeneralEntryConfigManager instancegInstance:cooperation.pluginbridge.BridgeHelper@f5ebb24uin:531987464
+07-08 03:06:07.639  4435  4435 D QQAppInterface: onProcPause
+07-08 03:06:07.639  4435  4435 D QQAppInterface: refreshAppBadge fail cause isBackground_Pause = true, isBackground_Stop = false, isSupportBadge + false
+07-08 03:06:07.640  4435  4457 D plugin_tag: ActivityLifecycle onPause
+07-08 03:06:07.640  4435  4457 D         : NFCActivityLifecycleCallback onPause com.tencent.mobileqq
+07-08 03:06:07.642  4435  5051 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:reportRdm ssoSeq:-1 appId:537061740 appSeq:46025 uin:0 sCmd:App_reportRDM t:30000 needResp:false needQuickSend:false strategy:-1
+07-08 03:06:07.646  4435  4435 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@212729d
+07-08 03:06:07.653  4435  4435 I ImmersiveUtils: MANUFACTURER = google, MODEL = AOSP on msm8996
+07-08 03:06:07.656  4435  4435 I qqBaseActivity: [129600227]ForwardRecentActivity process id =4435 onCreate task : 51
+07-08 03:06:07.685  4435  4435 D CustomGridView: setOverScrollMode  OVER_SCROLL_NEVER
+07-08 03:06:07.686  4435  4435 I chatty  : uid=10078(com.tencent.mobileqq) identical 1 line
+07-08 03:06:07.691  4435  4435 D CustomGridView: setOverScrollMode  OVER_SCROLL_NEVER
+07-08 03:06:07.692  4435  4435 D ForwardOption.ForwardOptionBuilder: ForwardOptionBuilder forwardType=0
+07-08 03:06:07.692  4435  4435 D ForwardOption.ForwardFileBaseOption: uri= content://com.estrongs.files/storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt
+07-08 03:06:07.692  4435  4435 D UriParserPathHelper: uri= content://com.estrongs.files/storage/emulated/0/tencent/Midas/Log/com.tencent.tmgp.sgame/20190705_1.txt
+07-08 03:06:07.696  4435  4435 D ForwardOption.ForwardBaseOption: -->allowFriendAbility--allow = true
+07-08 03:06:07.696  4435  4435 D ForwardOption.ForwardBaseOption: -->allowDiscussAbility--allow = false
+07-08 03:06:07.696  4435  4435 D ForwardOption.ForwardBaseOption: -->allowTroopAbility--allow = true
+07-08 03:06:07.696  4435  4435 D MultiMsg_TAG.Nest: checkMap.size = 0,count= 0
+07-08 03:06:07.696  4435  4435 D ForwardOption.ForwardBaseOption: -->allowSmartDeviceAbility--allow = false
+07-08 03:06:07.696  4435  4435 D ForwardOption.ForwardEntranceActivity: -->doOnCreate_init--isSdkShare = false, pkgName = null, appid = isFromWeb= false isFromShare: true isFromDatalineAIO: false
+07-08 03:06:07.723  4435  4435 D Q.db.Cache.RecentUserCache: getRecentList, size = 14
+07-08 03:06:07.723  4435  4435 D CrmUtils: isQiye after getSimpleInfo value is false
+07-08 03:06:07.723  4435  4435 D CrmUtils: isQiye after getSimpleInfo value is false
+07-08 03:06:07.723  4435  4435 I ForwardOption.ForwardEntranceActivity: refreshRecentList 01 forwardList size is: 5
+07-08 03:06:07.723  4435  4435 I ForwardOption.ForwardEntranceActivity: refreshRecentList forwardList size is: 5
+07-08 03:06:07.724  4435  4457 D Q.contacttab.: findTroopInfo, troopUin: TroopInfo: {uin = 224572805, name = 《逆天神医》书友群}, findDB: true, containExited: false, hasFind: false
+07-08 03:06:07.724  4435  4457 D Q.contacttab.: findTroopInfo, troopUin: TroopInfo: {uin = 482047961, name = [no name]}, findDB: true, containExited: false, hasFind: false
+07-08 03:06:07.725  4435  4457 D Q.contacttab.: findTroopInfo, troopUin: TroopInfo: {uin = 385384699, name = [no name]}, findDB: true, containExited: false, hasFind: false
+07-08 03:06:07.725  4435  4435 W ForwardOption.ForwardEntranceActivity: -->adjustEntryLayout--don't support phone contacts forward, set contactBtn gone
+07-08 03:06:07.725  4435  4457 D ReportController: addReporting:531987464||0X8005A0F|0X8005A0F|0|${count_unknown}|0|0||||, 1
+07-08 03:06:07.725  4435  4457 D Q.msg.MsgProxy: addMsgQueue write notify
+07-08 03:06:07.725  4435  4661 D Q.msg.MsgProxy: transSaveToDatabase
+07-08 03:06:07.725  4435  4661 D Q.msg.MsgProxy: transSaveToDatabase writeRunnable msgQueue size:3
+07-08 03:06:07.726  4435  4661 D Q.msg.MsgProxy: writeRunable QueueItem.action: 4, uin: , tableName: Reporting, value: null
+07-08 03:06:07.726  4435  4661 I chatty  : uid=10078(com.tencent.mobileqq) QQ_DB identical 1 line
+07-08 03:06:07.726  4435  4661 D Q.msg.MsgProxy: writeRunable QueueItem.action: 4, uin: , tableName: Reporting, value: null
+07-08 03:06:07.727  4435  4661 D Q.msg.MessageCache: msgCache commit.
+07-08 03:06:07.727  4435  4661 D Q.db.Cache: transSaveToDatabase
+07-08 03:06:07.727  4435  4661 D Q.db.Cache: transSaveToDatabase writeRunable msgQueue size:0
+07-08 03:06:07.727  4435  4435 D qqBaseActivity: [129600227]ForwardRecentActivity onStart 2
+07-08 03:06:07.727  4435  4457 D ReportController: handleAddReporting:r.mTag=CliOper, r.mDetail=531987464||0X8005A0F|0X8005A0F|0|${count_unknown}|0|0||||, r.mDetailHashCode=1084286159
+07-08 03:06:07.727  4435  4435 I QQNotification: MsgPushReportHelper notify id:0 is InValid
+07-08 03:06:07.727  4435  4457 D ReportController: addReporting:531987464||friendchoose|0X8009D8E|2|${count_unknown}|0|||||, 1
+07-08 03:06:07.727  4435  4457 D Q.msg.MsgProxy: addMsgQueue write notify
+07-08 03:06:07.728  4435  4661 D Q.msg.MsgProxy: transSaveToDatabase
+07-08 03:06:07.728  4435  4661 D Q.msg.MsgProxy: transSaveToDatabase writeRunnable msgQueue size:1
+07-08 03:06:07.728  4435  4661 D Q.msg.MsgProxy: writeRunable QueueItem.action: 4, uin: , tableName: Reporting, value: null
+07-08 03:06:07.728  4435  4435 D systembar: mChatBarComp init()
+07-08 03:06:07.728  4435  4435 D SystemBarTintManager: setStatusBarTintEnabled enabled = true
+07-08 03:06:07.728  4435  4661 D Q.msg.MessageCache: msgCache commit.
+07-08 03:06:07.728  4435  4661 D Q.db.Cache: transSaveToDatabase
+07-08 03:06:07.728  4435  4661 D Q.db.Cache: transSaveToDatabase writeRunable msgQueue size:0
+07-08 03:06:07.728  4435  4457 D ReportController: handleAddReporting:r.mTag=CliOper, r.mDetail=531987464||friendchoose|0X8009D8E|2|${count_unknown}|0|||||, r.mDetailHashCode=46954262
+07-08 03:06:07.729  4435  4435 D Q.gesturelock.util: getAppForground.uin=,isAppFroground=false
+07-08 03:06:07.729  4435  4435 D qqBaseActivity: [129600227]ForwardRecentActivity onResume .mAppForground = false,mCanLock=true HeapAlloc=23845 KB HeapFree=9461 KB HeapMax=262144 KB
+07-08 03:06:07.729  4435  4435 D Q.gesturelock.util: getJumpLock.uin=531987464,isjumplock=false
+07-08 03:06:07.729  4435  4435 D Q.gesturelock.util: setAppForground.uin=,isAppFroground=true
+07-08 03:06:07.729  4435  4458 D GuardManager: FG_OTHER onEvent RESUME, null, 0, 0
+07-08 03:06:07.729  4435  4435 D GuardManager: state change:1
+07-08 03:06:07.729  4435  4435 I BridgeHelper: get GeneralEntryConfigManager instancegInstance:cooperation.pluginbridge.BridgeHelper@f5ebb24uin:531987464
+07-08 03:06:07.730  4435  4457 D plugin_tag: ActivityLifecycle onResume
+07-08 03:06:07.730  4435  4457 D         : NFCActivityLifecycleCallback onResume com.tencent.mobileqq
+07-08 03:06:07.735  4435  4435 D qqBaseActivity: doOnWindowFocusChanged, isFocused[false], appIsNull[false], curName[com.tencent.mobileqq.activity.JumpActivity]
+07-08 03:06:07.757  4435  4435 D FeedsPreloadHelper: isFromLockScreenPush = false, is not splashActivity.
+07-08 03:06:07.757  4435  4457 D SneakyCallback: [maybeWakeOtherApps] 
+07-08 03:06:07.757  4435  4435 D FeedsPreloadManager: foreground, feeds preload.
+07-08 03:06:07.757  4435  4457 I SneakyCallback: [maybeWakeOtherApps] did not match any wake type rule, skip.
+07-08 03:06:07.757  4435  4457 D ReadinjoySPEventReport: canReport : eventID 8
+07-08 03:06:07.757  4435  4611 D ReadInJoyHelper: 531987464 isShowKandianTab, isShowKandian = 1
+07-08 03:06:07.757  4435  4611 D ReadInJoyHelper: getReadInJoySpValue: sp_key_readinjoy_feeds_preload_switch
+07-08 03:06:07.757  4435  4611 D FeedsPreloadHelper: isAbleToPreload: NO, switch is off.
+07-08 03:06:07.759  4435  4457 D kandianreport.taskmanager: checknetinfo get wifi ssid <unknown ssid>
+07-08 03:06:07.761  4435  4435 I Q.qqhead.: getFaceBitmap from cache, key: troop_224572805_3 value: android.graphics.Bitmap@f793554
+07-08 03:06:07.761  4435  4435 D Q.contacttab.: findTroopInfo, troopUin: TroopInfo: {uin = 224572805, name = 《逆天神医》书友群}, findDB: true, containExited: false, hasFind: false
+07-08 03:06:07.763  4435  4435 I Q.qqhead.: getFaceBitmap from cache, key: 757556204_3 value: android.graphics.Bitmap@dcf7df2
+07-08 03:06:07.764  4435  4435 D Q.contacttab.: findTroopInfo, troopUin: null, findDB: true, containExited: false, hasFind: true
+07-08 03:06:07.766  4435  4435 I Q.qqhead.: getFaceBitmap from cache, key: troop_482047961_3 value: android.graphics.Bitmap@6de52c0
+07-08 03:06:07.766  4435  4435 D Q.contacttab.: findTroopInfo, troopUin: TroopInfo: {uin = 482047961, name = [no name]}, findDB: true, containExited: false, hasFind: false
+07-08 03:06:07.768  4435  4435 I Q.qqhead.: getFaceBitmap from cache, key: 918633284_3 value: android.graphics.Bitmap@53873e
+07-08 03:06:07.768  4435  4435 D Q.contacttab.: findTroopInfo, troopUin: null, findDB: true, containExited: false, hasFind: true
+07-08 03:06:07.771  4435  4435 I Q.qqhead.: getFaceBitmap from cache, key: troop_385384699_3 value: android.graphics.Bitmap@6b5daec
+07-08 03:06:07.771  4435  4435 D Q.contacttab.: findTroopInfo, troopUin: TroopInfo: {uin = 385384699, name = [no name]}, findDB: true, containExited: false, hasFind: false
+07-08 03:06:07.781  4435  4435 D qqBaseActivity: doOnWindowFocusChanged, isFocused[true], appIsNull[false], curName[com.tencent.mobileqq.activity.ForwardRecentActivity]
+07-08 03:06:07.781  4435  4435 D notification: BaseActivity doOnWindowFocusChanged removeNotification
+07-08 03:06:07.782  4435  5054 D MobileQQServiceBase: req cmd: CMD_STOP_NOTIFIYCATION
+07-08 03:06:07.782  4435  5054 D SUB_ACCOUNT: clearAllUnNotifySenderNum()
+07-08 03:06:07.782  4435  5054 I QQNotification: MobileQQService.stopForegroundCompat cancel id:275
+07-08 03:06:07.782  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:265
+07-08 03:06:07.783  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:267
+07-08 03:06:07.784  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:274
+07-08 03:06:07.785  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:236
+07-08 03:06:07.786  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:268
+07-08 03:06:07.786  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:272
+07-08 03:06:07.787  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:271
+07-08 03:06:07.788  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:273
+07-08 03:06:07.789  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:239
+07-08 03:06:07.790  4435  5053 I QQNotification: QQAppInterface_removeNotification cancel id:266
+07-08 03:06:07.791  4435  5053 D PushNoticeManager: setRead -1
+07-08 03:06:07.791  4435  5053 D notification: removeNotification
+07-08 03:06:07.809  4435  4435 D MessageObserver: onUpdate NOTIFY_TYPE_SUBACCOUNT_GET_MSG
+07-08 03:06:07.810   671   671 D QCOM PowerHAL: LAUNCH HINT: OFF
+07-08 03:06:07.828  4435  4457 I mqq     : 1, com.tencent.mobileqq, 112802226, 2, rt = com.tencent.mobileqq.app.QQAppInterface@9e8ddce
+07-08 03:06:07.832  4435  4435 D GuardManager: com.tencent.process.starting received with com.tencent.mobileqq at 112802226, when 112786742, 112801415
+07-08 03:06:07.833  4435  4458 D GuardManager: now login uin=531987464 isForeground=true
+07-08 03:06:07.833  4435  4458 D GuardManager: state change:3
+07-08 03:06:07.833  4435  4458 D GuardManager: FG_OTHER onEvent FG, com.tencent.mobileqq, 0, 0
+07-08 03:06:08.073  4435  4458 D MSFServlet: ACTION_UNGUARD_APP send now
+07-08 03:06:08.075  4471  4898 D GuardManager: onEvent:7, 0, 0
+07-08 03:06:08.076  4435  4458 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:gm_GuardEvent ssoSeq:-1 appId:537061740 appSeq:110 uin:null sCmd: t:30000 needResp:false needQuickSend:false strategy:-1
+07-08 03:06:08.076  4435  4458 D mqq     : [MSF Send] appSeq:110  QQAppInterface@166256078  from BuiltInServlet
+07-08 03:06:08.200  4435  4435 D qqBaseActivity: [24045576]JumpActivity onStop 1
+07-08 03:06:08.208  4435  4435 I qqBaseActivity: [24045576]JumpActivity process id =4435 onDestroy task : 51
+07-08 03:06:08.208  4435  4435 D LeakInspector: afterOnDestroy JumpActivity
+07-08 03:06:08.208  4435  4435 D LeakInspector: fixInputMethodManagerLeak break, context is not suitable, v=DecorView@fdcdff2[ForwardRecentActivity] view.getContext=com.android.internal.policy.DecorContext@4734643 context=com.tencent.mobileqq.activity.JumpActivity@16ee808 params=mCurRootView
+07-08 03:06:08.223 29680 29680 D CRAB    : [main(2): null:4] - onActivitySaveInstanceState:com.estrongs.android.pop.view.FileExplorerActivity@8311cc0
+07-08 03:06:08.227 29680 29680 D CRAB    : [main(2): null:4] - onActivityStopped:com.estrongs.android.pop.view.FileExplorerActivity@8311cc0
+07-08 03:06:08.376   916   927 I system_server: NativeAlloc concurrent copying GC freed 6590(638KB) AllocSpace objects, 6(312KB) LOS objects, 42% free, 13MB/23MB, paused 147us total 116.902ms
+07-08 03:06:09.211  4435  4457 D LeakInspector: Inspecting JumpActivity@2740139f-b4c6-4dd5-b1a4-153151917cae Time=1562526369211 count=0
+07-08 03:06:09.361  4435  4457 I encent.mobileq: Explicit concurrent copying GC freed 55414(2MB) AllocSpace objects, 37(1264KB) LOS objects, 49% free, 10MB/21MB, paused 94us total 149.801ms
+07-08 03:06:09.536  4435  5064 D MobileQQServiceBase: req cmd: ClientInfoA.SecReport
+07-08 03:06:09.537  4435  5064 D MobileQQServiceBase: PB cmd: req cmd: ClientInfoA.SecReport
+07-08 03:06:09.547  4471  4898 D MSF.C.NetConnTag: add 13980 cmd:CS85MTQsDDQsLBF6CT0mCC8zPyYu uin: *7464 len: 66 msg to GRAfehY3IjMkDjUmPT0 delayWaitSendList
+07-08 03:06:09.549  4435  5064 D MSF.D.Proxy:  sendMsgToService ToServiceMsg msName:unknown ssoSeq:-1 appId:537061740 appSeq:111 uin:531987464 sCmd:ClientInfoA.SecReport t:30000 needResp:false needQuickSend:false strategy:0
+07-08 03:06:09.550  4435  5064 D mqq     : [MSF Send]ClientInfoA.SecReport appSeq:111  QQAppInterface@166256078  from akyn
