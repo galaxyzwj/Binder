@@ -1,0 +1,10 @@
+点加号没有surfaceflinger日志打印
+
+点击视频通话弹出视频通话语音通话弹框：
+07-09 05:03:32.098   495   553 D SurfaceFlinger: duplicate layer name: changing com.tencent.mm/com.tencent.mm.ui.LauncherUI to com.tencent.mm/com.tencent.mm.ui.LauncherUI#1
+
+点击桌面任一点退出该弹框
+07-09 05:02:17.583   495  1914 W SurfaceFlinger: Attempting to set client state on removed layer: com.tencent.mm/com.tencent.mm.ui.LauncherUI#1
+07-09 05:02:17.583   495  1914 W SurfaceFlinger: Attempting to destroy on removed layer: com.tencent.mm/com.tencent.mm.ui.LauncherUI#1
+07-09 05:02:17.597   495   553 W SurfaceFlinger: Attempting to set client state on removed layer: Dim Layer for - Task=55#0
+07-09 05:02:17.597   495   553 W SurfaceFlinger: Attempting to destroy on removed layer: Dim Layer for - Task=55#0
