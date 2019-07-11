@@ -1,0 +1,266 @@
+点击分享到 QQ空间，跳转到 QQ空间分享界面
+07-10 04:41:14.772   916  1170 I am_create_activity: [0,38194939,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,NULL,NULL,NULL,0]
+07-10 04:41:14.775   916  1170 I am_pause_activity: [0,40588249,com.tencent.tmgp.speedmobile/.speedmobile,userLeaving=true]
+07-10 04:41:14.842 29461 29461 I am_on_paused_called: [0,com.tencent.tmgp.speedmobile.speedmobile,performPause]
+07-10 04:41:14.892   916  1170 I configuration_changed: 536872064
+07-10 04:41:14.910   916  1170 I am_restart_activity: [0,38194939,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity]
+07-10 04:41:14.911   916  1170 I am_set_resumed_activity: [0,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,minimalResumeActivityLocked]
+07-10 04:41:14.930   916   977 I sysui_count: [window_time_0,181]
+07-10 04:41:14.933   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,181]
+07-10 04:41:14.966   916  1149 I netstats_mobile_sample: [6364101,8165,679691,7598,6364101,8165,618907,7598,6364101,8165,618907,7598,1562704874966]
+07-10 04:41:14.966   916  1149 I netstats_wifi_sample: [2080587228,1569287,48303079,581698,2079673392,1536442,40156343,577630,2078651984,1528910,40114409,576968,1562704874966]
+07-10 04:41:14.989   916  6040 I am_create_activity: [0,27877335,70,com.tencent.mobileqq/.activity.JumpActivity,android.intent.action.VIEW,NULL,mqqapi://qzone/publish?src_type=app&version=1&file_type=news&image_url=JTJGc3RvcmFnZSUyRmVtdWxhdGVkJTJGMCUyRkFuZHJvaWQlMkZkYXRhJTJGY29tLnRlbmNlbnQudG1ncC5zcGVlZG1vYmlsZSUyRmZpbGVzJTJGRG93bmxvYWQlMkZTSEFSRV9JTUFHRSUyRiUyRjBGN0M3M0U1NUM3RDcyODNBNkRCOTAwMUQ2RkMzMDc0LmpwZw==&share_id=1104922185&app_name=UVHpo57ovaY=&open_id=QTc3NDM2N0IxRTI2QUJEQzgwQjM2RjJCNTMwRjhBNkI=&req_type=Mw==,0]
+07-10 04:41:14.991   916  6040 I am_pause_activity: [0,38194939,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,userLeaving=true]
+07-10 04:41:14.995 29461 29461 I am_on_create_called: [0,com.tencent.connect.common.AssistActivity,performCreate]
+07-10 04:41:14.998 29461 29461 I am_on_start_called: [0,com.tencent.connect.common.AssistActivity,handleStartActivity]
+07-10 04:41:15.000 29461 29461 I am_on_resume_called: [0,com.tencent.connect.common.AssistActivity,RESUME_ACTIVITY]
+07-10 04:41:15.056 29461 29461 I am_on_paused_called: [0,com.tencent.connect.common.AssistActivity,performPause]
+07-10 04:41:15.078   916 14672 I am_uid_active: 10078
+07-10 04:41:15.079   916 14672 I am_restart_activity: [0,27877335,70,com.tencent.mobileqq/.activity.JumpActivity]
+07-10 04:41:15.082   916 14672 I am_set_resumed_activity: [0,com.tencent.mobileqq/.activity.JumpActivity,minimalResumeActivityLocked]
+07-10 04:41:15.086   916   977 I sysui_count: [window_time_0,0]
+07-10 04:41:15.086   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:41:15.122   916   975 I sysui_multi_action: [319,126,322,78,325,151981,757,761,758,8,759,2,806,com.tencent.mobileqq,871,com.tencent.mobileqq.activity.JumpActivity,904,com.tencent.tmgp.speedmobile,905,0,1320,8,1321,5]
+07-10 04:41:15.129   916   975 I am_activity_launch_time: [0,27877335,com.tencent.mobileqq/.activity.JumpActivity,78]
+07-10 04:41:15.141 29812 29812 I am_on_create_called: [0,com.tencent.mobileqq.activity.JumpActivity,performCreate]
+07-10 04:41:15.143 29812 29812 I am_on_start_called: [0,com.tencent.mobileqq.activity.JumpActivity,handleStartActivity]
+07-10 04:41:15.144 29812 29812 I am_on_resume_called: [0,com.tencent.mobileqq.activity.JumpActivity,RESUME_ACTIVITY]
+07-10 04:41:15.293 30846 30846 I auditd  : type=1400 audit(0.0:2540): avc: denied { read } for comm="thread_sp_file_" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:15.307 30846 30846 I auditd  : type=1400 audit(0.0:2541): avc: denied { read } for comm="thread_sp_file_" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:15.365   916  6040 I am_create_activity: [0,77169839,70,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,NULL,NULL,NULL,262144]
+07-10 04:41:15.368   916  6040 I am_pause_activity: [0,27877335,com.tencent.mobileqq/.activity.JumpActivity,userLeaving=false]
+07-10 04:41:15.393 29812 29812 I am_on_paused_called: [0,com.tencent.mobileqq.activity.JumpActivity,performPause]
+07-10 04:41:15.410 30015 30015 I auditd  : type=1400 audit(0.0:2542): avc: denied { read } for comm="MSF-Receiver" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:15.430   916   984 I am_proc_start: [0,30855,10078,com.tencent.mobileqq:qzone,activity,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity]
+07-10 04:41:15.467   916   936 I am_proc_bound: [0,30855,com.tencent.mobileqq:qzone]
+07-10 04:41:15.485   916   936 I am_restart_activity: [0,77169839,70,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity]
+07-10 04:41:15.488   916   936 I am_set_resumed_activity: [0,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,minimalResumeActivityLocked]
+07-10 04:41:15.623 30855 30855 I auditd  : type=1400 audit(0.0:2543): avc: denied { search } for comm=".mobileqq:qzone" name="net" dev="sysfs" ino=28186 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0
+07-10 04:41:15.623 30855 30855 I auditd  : type=1400 audit(0.0:2544): avc: denied { search } for comm=".mobileqq:qzone" name="net" dev="sysfs" ino=28187 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0
+07-10 04:41:16.076  1387 13174 I service_manager_stats: [100,51,162517]
+07-10 04:41:16.471 30855 30855 I am_on_create_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,performCreate]
+07-10 04:41:16.847   916 14672 I am_uid_running: 10008
+07-10 04:41:16.858   916   984 I am_proc_start: [0,30969,10008,android.process.media,content provider,com.android.providers.media/.MediaProvider]
+07-10 04:41:16.889   916 15228 I am_proc_bound: [0,30969,android.process.media]
+07-10 04:41:16.892   916 15228 I am_uid_active: 10008
+07-10 04:41:17.105 30855 30855 I am_on_start_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,handleStartActivity]
+07-10 04:41:17.107 30906 30906 I auditd  : type=1400 audit(0.0:2548): avc: denied { read } for comm="Business_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:17.125 30855 30855 I am_on_resume_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,RESUME_ACTIVITY]
+07-10 04:41:17.123 30991 30991 I auditd  : type=1400 audit(0.0:2549): avc: denied { read } for comm="Report_HandlerT" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:17.153 30919 30919 I auditd  : type=1400 audit(0.0:2550): avc: denied { read } for comm="RealTime_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:17.333 30906 30906 I auditd  : type=1400 audit(0.0:2551): avc: denied { read } for comm="Business_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:17.387 30905 30905 I auditd  : type=1400 audit(0.0:2552): avc: denied { read } for comm="BackGround_Hand" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:17.533   916   992 I dvm_lock_sample: [system_server,1,android.display,25,WindowManagerService.java,4982,void com.android.server.wm.WindowManagerService$H.handleMessage(android.os.Message),WindowSurfacePlacer.java,117,void com.android.server.wm.WindowSurfacePlacer.lambda$new$0(com.android.server.wm.WindowSurfacePlacer),5]
+07-10 04:41:17.576   916   992 I dvm_lock_sample: [system_server,1,android.display,5,WindowManagerService.java,4982,void com.android.server.wm.WindowManagerService$H.handleMessage(android.os.Message),-,1872,int com.android.server.wm.WindowManagerService.relayoutWindow(com.android.server.wm.Session, android.view.IWindow, int, android.view.WindowManager$LayoutParams, int, int, int, int, long, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.view.DisplayCutout$ParcelableWrapper, android.util.MergedConfiguration, android.view.Surface),1]
+07-10 04:41:17.604   916  8350 I am_finish_activity: [0,27877335,70,com.tencent.mobileqq/.activity.JumpActivity,app-request]
+07-10 04:41:17.605   916  8350 I am_destroy_activity: [0,27877335,70,com.tencent.mobileqq/.activity.JumpActivity,finish-imm:finishActivityLocked]
+07-10 04:41:17.612   916   977 I sysui_count: [window_time_0,3]
+07-10 04:41:17.613   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,3]
+07-10 04:41:17.617 29812 29812 I am_on_stop_called: [0,com.tencent.mobileqq.activity.JumpActivity,LIFECYCLER_STOP_ACTIVITY]
+07-10 04:41:17.623   916   975 I sysui_multi_action: [319,2163,322,2157,325,151981,757,761,758,7,759,2,806,com.tencent.mobileqq,871,cooperation.qzone.QzonePublishMoodProxyActivity,904,com.tencent.mobileqq,905,0,945,104,1320,8,1321,5]
+07-10 04:41:17.624   916   975 I am_activity_launch_time: [0,77169839,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,2157]
+07-10 04:41:17.653   916  8350 I am_stop_activity: [0,40588249,com.tencent.tmgp.speedmobile/.speedmobile]
+07-10 04:41:17.654   916  8350 I am_stop_activity: [0,38194939,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity]
+07-10 04:41:17.662 29461 29461 I am_on_stop_called: [0,com.tencent.tmgp.speedmobile.speedmobile,STOP_ACTIVITY_ITEM]
+07-10 04:41:17.669 29812 29812 I am_on_destroy_called: [0,com.tencent.mobileqq.activity.JumpActivity,performDestroy]
+07-10 04:41:17.669 29461 29461 I am_on_stop_called: [0,com.tencent.connect.common.AssistActivity,STOP_ACTIVITY_ITEM]
+07-10 04:41:19.039   916  1132 I commit_sys_config_file: [settings-1-0,7]
+07-10 04:41:20.120 30906 30906 I auditd  : type=1400 audit(0.0:2555): avc: denied { read } for comm="Business_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+
+
+
+跳转到QQ空间分享界面后点击发表
+07-10 04:41:20.163 30906 30906 I chatty  : uid=10078(com.tencent.mobileqq) Business_Handle identical 1 line
+07-10 04:41:20.203 30906 30906 I auditd  : type=1400 audit(0.0:2557): avc: denied { read } for comm="Business_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:25.310 30991 30991 I auditd  : type=1400 audit(0.0:2558): avc: denied { read } for comm="Report_HandlerT" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:25.348   916  8350 I am_finish_activity: [0,77169839,70,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,app-request]
+07-10 04:41:25.348   916  8350 I am_pause_activity: [0,77169839,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,userLeaving=false]
+07-10 04:41:25.351   916   977 I sysui_count: [window_time_0,7]
+07-10 04:41:25.351   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,7]
+07-10 04:41:25.363   916  8350 I am_create_activity: [0,15000194,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,NULL,NULL,tencent1104922185://tauth.qq.com/?,268435456]
+07-10 04:41:25.381   916 14672 I am_new_intent: [0,15000194,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,NULL,NULL,tencent1104922185://tauth.qq.com/?,268435456]
+07-10 04:41:25.395 30855 30855 I am_on_paused_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,performPause]
+07-10 04:41:25.412   916 14672 I am_restart_activity: [0,15000194,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity]
+07-10 04:41:25.413   916 14672 I am_set_resumed_activity: [0,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,minimalResumeActivityLocked]
+07-10 04:41:25.420   916   977 I sysui_count: [window_time_0,1]
+07-10 04:41:25.420   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,1]
+07-10 04:41:25.429   916  8350 I am_finish_activity: [0,15000194,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,clear-task-stack]
+07-10 04:41:25.430   916  8350 I am_pause_activity: [0,15000194,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,userLeaving=false]
+07-10 04:41:25.431   916  8350 I am_new_intent: [0,69746650,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,NULL,NULL,NULL,603979776]
+07-10 04:41:25.431   916  8350 I am_new_intent: [0,38194939,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,NULL,NULL,NULL,0]
+07-10 04:41:25.433   916   977 I sysui_count: [window_time_0,0]
+07-10 04:41:25.433   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:41:25.434   916   977 I sysui_multi_action: [757,1144,758,8,806,com.tencent.tmgp.speedmobile,871,com.tencent.tauth.AuthActivity]
+07-10 04:41:25.434 29461 29461 I am_on_create_called: [0,com.tencent.tauth.AuthActivity,performCreate]
+07-10 04:41:25.440   916  8350 I am_set_resumed_activity: [0,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,resumeTopActivityInnerLocked]
+07-10 04:41:25.500   916  8350 I configuration_changed: 536872064
+07-10 04:41:25.551   916  8350 I am_resume_activity: [0,38194939,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity]
+07-10 04:41:25.571   916   977 I dvm_lock_sample: [system_server,1,ActivityManager,131,VrController.java,183,boolean com.android.server.am.VrController.onVrModeChanged(com.android.server.am.ActivityRecord),ActivityManagerService.java,8165,void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder),26]
+07-10 04:41:25.575   916   977 I sysui_count: [window_time_0,0]
+07-10 04:41:25.575   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:41:25.591   916  1157 I service_manager_slow: [16,alarm]
+07-10 04:41:25.591   916  1157 I service_manager_stats: [100,126,432792]
+07-10 04:41:25.607 29461 29461 I am_on_restart_called: [0,com.tencent.tmgp.speedmobile.speedmobile,handleWindowVisibility]
+07-10 04:41:25.622   916   984 I am_proc_start: [0,31074,10078,com.tencent.mobileqq:imageservice,service,com.tencent.mobileqq/com.tencent.upload.image.ImageProcessService]
+07-10 04:41:25.623 29461 29461 I am_on_start_called: [0,com.tencent.tmgp.speedmobile.speedmobile,handleWindowVisibility]
+07-10 04:41:25.623 29461 29461 I am_on_activity_result_called: [0,com.tencent.connect.common.AssistActivity,ACTIVITY_RESULT]
+07-10 04:41:25.626   916  6040 I am_finish_activity: [0,38194939,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,app-request]
+07-10 04:41:25.628   916  6040 I am_pause_activity: [0,38194939,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,userLeaving=false]
+07-10 04:41:25.631   916   977 I sysui_count: [window_time_0,0]
+07-10 04:41:25.631   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:41:25.631 29461 29461 I am_on_restart_called: [0,com.tencent.connect.common.AssistActivity,performRestartActivity]
+07-10 04:41:25.669   916  6040 I am_proc_bound: [0,31074,com.tencent.mobileqq:imageservice]
+07-10 04:41:25.730   916  6040 I am_set_resumed_activity: [0,com.tencent.tmgp.speedmobile/.speedmobile,resumeTopActivityInnerLocked]
+07-10 04:41:25.731   916  6040 I am_resume_activity: [0,40588249,70,com.tencent.tmgp.speedmobile/.speedmobile]
+07-10 04:41:25.745   916   977 I sysui_count: [window_time_0,0]
+07-10 04:41:25.745   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:41:25.791 29461 29461 I am_on_activity_result_called: [0,com.tencent.tmgp.speedmobile.speedmobile,ACTIVITY_RESULT]
+07-10 04:41:25.800   916   977 I am_destroy_activity: [0,38194939,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,finish-imm:activityIdleInternalLocked]
+07-10 04:41:25.801   916   977 I am_destroy_activity: [0,15000194,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,finish-imm:activityIdleInternalLocked]
+07-10 04:41:25.801   916   977 I am_destroy_activity: [0,77169839,70,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,finish-imm:activityIdleInternalLocked]
+07-10 04:41:25.808 29461 29461 I am_on_resume_called: [0,com.tencent.tmgp.speedmobile.speedmobile,RESUME_ACTIVITY]
+07-10 04:41:25.818 29461 29461 I am_on_destroy_called: [0,com.tencent.connect.common.AssistActivity,performDestroy]
+07-10 04:41:25.825 29461 29461 I am_on_destroy_called: [0,com.tencent.tauth.AuthActivity,performDestroy]
+07-10 04:41:25.834 30855 30855 I am_on_stop_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,LIFECYCLER_STOP_ACTIVITY]
+07-10 04:41:25.913 31074 31074 I auditd  : type=1400 audit(0.0:2559): avc: denied { search } for comm="qq:imageservice" name="net" dev="sysfs" ino=28186 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0
+07-10 04:41:25.913 31074 31074 I auditd  : type=1400 audit(0.0:2560): avc: denied { search } for comm="qq:imageservice" name="net" dev="sysfs" ino=28187 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0
+07-10 04:41:25.913 31074 31074 I auditd  : type=1400 audit(0.0:2561): avc: denied { search } for comm="qq:imageservice" name="net" dev="sysfs" ino=28186 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0
+07-10 04:41:25.987 30855 30855 I am_on_destroy_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,performDestroy]
+07-10 04:41:26.020 31074 31074 I auditd  : type=1400 audit(0.0:2562): avc: denied { read } for comm="qq:imageservice" name="anr" dev="sda35" ino=393234 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:anr_data_file:s0 tclass=dir permissive=0
+07-10 04:41:26.113 30876 30876 I auditd  : type=1400 audit(0.0:2563): avc: denied { read } for comm="QQ_SUB" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:27.290 31141 31141 I auditd  : type=1400 audit(0.0:2564): avc: denied { read } for comm="UploadThread-0" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:41:28.840 30906 30906 I auditd  : type=1400 audit(0.0:2565): avc: denied { read } for comm="Business_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+
+
+
+
+
+
+
+
+
+
+2222222222222222次
+
+点击分享到QQ空间，然后跳转到QQ空间界面
+07-10 04:59:15.452   916  1216 I am_create_activity: [0,251652164,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,NULL,NULL,NULL,0]
+07-10 04:59:15.456   916  1216 I am_pause_activity: [0,40588249,com.tencent.tmgp.speedmobile/.speedmobile,userLeaving=true]
+07-10 04:59:15.521 29461 29461 I am_on_paused_called: [0,com.tencent.tmgp.speedmobile.speedmobile,performPause]
+07-10 04:59:15.565   916 14672 I configuration_changed: 536872064
+07-10 04:59:15.580   916 14672 I am_restart_activity: [0,251652164,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity]
+07-10 04:59:15.586   916 14672 I am_set_resumed_activity: [0,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,minimalResumeActivityLocked]
+07-10 04:59:15.603   916   977 I sysui_count: [window_time_0,14]
+07-10 04:59:15.603   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,14]
+07-10 04:59:15.613  2016  2541 I dvm_lock_sample: [com.android.launcher3,0,UiThreadHelper,22,ResourcesManager.java,290,android.view.Display android.app.ResourcesManager.getAdjustedDisplay(int, android.content.res.Resources),ActivityThread.java,5125,void android.app.ActivityThread.handleConfigurationChanged(android.content.res.Configuration, android.content.res.CompatibilityInfo),4]
+07-10 04:59:15.637  1220 24451 I dvm_lock_sample: [com.android.inputmethod.latin,0,Binder:1220_A,34,DisplayManagerGlobal.java,267,void android.hardware.display.DisplayManagerGlobal.handleDisplayEvent(int, int),-,115,android.view.DisplayInfo android.hardware.display.DisplayManagerGlobal.getDisplayInfo(int),6]
+07-10 04:59:15.653   916  1216 I am_create_activity: [0,53822640,70,com.tencent.mobileqq/.activity.JumpActivity,android.intent.action.VIEW,NULL,mqqapi://qzone/publish?src_type=app&version=1&file_type=news&image_url=JTJGc3RvcmFnZSUyRmVtdWxhdGVkJTJGMCUyRkFuZHJvaWQlMkZkYXRhJTJGY29tLnRlbmNlbnQudG1ncC5zcGVlZG1vYmlsZSUyRmZpbGVzJTJGRG93bmxvYWQlMkZTSEFSRV9JTUFHRSUyRiUyRjBGN0M3M0U1NUM3RDcyODNBNkRCOTAwMUQ2RkMzMDc0LmpwZw==&share_id=1104922185&app_name=UVHpo57ovaY=&open_id=QTc3NDM2N0IxRTI2QUJEQzgwQjM2RjJCNTMwRjhBNkI=&req_type=Mw==,0]
+07-10 04:59:15.654   916  1216 I am_pause_activity: [0,251652164,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,userLeaving=true]
+07-10 04:59:15.657 29461 29461 I am_on_create_called: [0,com.tencent.connect.common.AssistActivity,performCreate]
+07-10 04:59:15.660 29461 29461 I am_on_start_called: [0,com.tencent.connect.common.AssistActivity,handleStartActivity]
+07-10 04:59:15.661 29461 29461 I am_on_resume_called: [0,com.tencent.connect.common.AssistActivity,RESUME_ACTIVITY]
+07-10 04:59:15.712 29461 29461 I am_on_paused_called: [0,com.tencent.connect.common.AssistActivity,performPause]
+07-10 04:59:15.735   916  1355 I am_restart_activity: [0,53822640,70,com.tencent.mobileqq/.activity.JumpActivity]
+07-10 04:59:15.737   916  1355 I am_set_resumed_activity: [0,com.tencent.mobileqq/.activity.JumpActivity,minimalResumeActivityLocked]
+07-10 04:59:15.744   916   977 I sysui_count: [window_time_0,0]
+07-10 04:59:15.744   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:59:15.762 29812 29812 I am_on_create_called: [0,com.tencent.mobileqq.activity.JumpActivity,performCreate]
+07-10 04:59:15.763 29812 29812 I am_on_start_called: [0,com.tencent.mobileqq.activity.JumpActivity,handleStartActivity]
+07-10 04:59:15.765 29812 29812 I am_on_resume_called: [0,com.tencent.mobileqq.activity.JumpActivity,RESUME_ACTIVITY]
+07-10 04:59:15.780 31657 31657 I auditd  : type=1400 audit(0.0:2629): avc: denied { read } for comm="thread_sp_file_" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:59:15.791   916 14889 I am_create_activity: [0,150545499,70,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,NULL,NULL,NULL,262144]
+07-10 04:59:15.793   916   975 I sysui_multi_action: [319,118,322,73,325,153062,757,761,758,8,759,2,806,com.tencent.mobileqq,871,com.tencent.mobileqq.activity.JumpActivity,904,com.tencent.tmgp.speedmobile,905,0,1320,8,1321,5]
+07-10 04:59:15.794   916 14889 I am_pause_activity: [0,53822640,com.tencent.mobileqq/.activity.JumpActivity,userLeaving=false]
+07-10 04:59:15.798   916   975 I am_activity_launch_time: [0,53822640,com.tencent.mobileqq/.activity.JumpActivity,73]
+07-10 04:59:15.808 29812 29812 I am_on_paused_called: [0,com.tencent.mobileqq.activity.JumpActivity,performPause]
+07-10 04:59:15.832   916 14889 I am_restart_activity: [0,150545499,70,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity]
+07-10 04:59:15.835   916 14889 I am_set_resumed_activity: [0,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,minimalResumeActivityLocked]
+07-10 04:59:15.845   916   977 I sysui_count: [window_time_0,0]
+07-10 04:59:15.846   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:59:15.855   916   975 I sysui_multi_action: [319,49,322,22,325,153062,757,761,758,8,759,3,806,com.tencent.mobileqq,871,cooperation.qzone.QzonePublishMoodProxyActivity,904,com.tencent.mobileqq,905,0,1320,8,1321,5]
+07-10 04:59:15.876   916   975 I am_activity_launch_time: [0,150545499,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,22]
+07-10 04:59:15.887 29833 29833 I auditd  : type=1400 audit(0.0:2630): avc: denied { read } for comm="QQ_SUB" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:59:15.905 30855 30855 I am_on_create_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,performCreate]
+07-10 04:59:16.005   916 15228 I am_uid_active: 10008
+07-10 04:59:16.093 30855 30855 I am_on_start_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,handleStartActivity]
+07-10 04:59:16.107 30906 30906 I auditd  : type=1400 audit(0.0:2631): avc: denied { read } for comm="Business_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:59:16.160 30855 30855 I am_on_resume_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,RESUME_ACTIVITY]
+07-10 04:59:16.167 30991 30991 I auditd  : type=1400 audit(0.0:2632): avc: denied { read } for comm="Report_HandlerT" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:59:16.191 30855 30906 I service_manager_stats: [200,205,1025959]
+07-10 04:59:16.197 30906 30906 I auditd  : type=1400 audit(0.0:2633): avc: denied { read } for comm="Business_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:59:16.240 30919 30919 I auditd  : type=1400 audit(0.0:2634): avc: denied { read } for comm="RealTime_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:59:16.315   916 15228 I am_finish_activity: [0,53822640,70,com.tencent.mobileqq/.activity.JumpActivity,app-request]
+07-10 04:59:16.316   916 15228 I am_destroy_activity: [0,53822640,70,com.tencent.mobileqq/.activity.JumpActivity,finish-imm:finishActivityLocked]
+07-10 04:59:16.321   916   977 I sysui_count: [window_time_0,0]
+07-10 04:59:16.321   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:59:16.330 29812 29812 I am_on_stop_called: [0,com.tencent.mobileqq.activity.JumpActivity,LIFECYCLER_STOP_ACTIVITY]
+07-10 04:59:16.337 29812 29812 I am_on_destroy_called: [0,com.tencent.mobileqq.activity.JumpActivity,performDestroy]
+07-10 04:59:16.389   916 15228 I am_stop_activity: [0,40588249,com.tencent.tmgp.speedmobile/.speedmobile]
+07-10 04:59:16.389   916 15228 I am_stop_activity: [0,251652164,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity]
+07-10 04:59:16.396 29461 29461 I am_on_stop_called: [0,com.tencent.tmgp.speedmobile.speedmobile,STOP_ACTIVITY_ITEM]
+07-10 04:59:16.403 29461 29461 I am_on_stop_called: [0,com.tencent.connect.common.AssistActivity,STOP_ACTIVITY_ITEM]
+07-10 04:59:16.427 29833 29833 I auditd  : type=1400 audit(0.0:2635): avc: denied { read } for comm="QQ_SUB" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+
+
+
+
+在QQ空间界面
+点击QQ空间的发表按钮，并跳转回来
+07-10 04:59:19.385   916   984 I am_proc_start: [0,31694,10078,com.tencent.mobileqq:picture,service,com.tencent.mobileqq/cooperation.qzone.QzonePictureViewerProxyService]
+07-10 04:59:19.433   916  2054 I am_proc_bound: [0,31694,com.tencent.mobileqq:picture]
+07-10 04:59:19.624 31694 31694 I auditd  : type=1400 audit(0.0:2638): avc: denied { search } for comm="obileqq:picture" name="net" dev="sysfs" ino=28186 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0
+07-10 04:59:19.650 31694 31694 I auditd  : type=1400 audit(0.0:2641): avc: denied { read } for comm="obileqq:picture" name="anr" dev="sda35" ino=393234 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:anr_data_file:s0 tclass=dir permissive=0
+07-10 04:59:19.770 30991 30991 I auditd  : type=1400 audit(0.0:2642): avc: denied { read } for comm="Report_HandlerT" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+07-10 04:59:19.791   916 14889 I am_finish_activity: [0,150545499,70,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,app-request]
+07-10 04:59:19.792   916 14889 I am_pause_activity: [0,150545499,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,userLeaving=false]
+07-10 04:59:19.797   916   977 I sysui_count: [window_time_0,4]
+07-10 04:59:19.797   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,4]
+07-10 04:59:19.809   916  2054 I am_create_activity: [0,41008623,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,NULL,NULL,tencent1104922185://tauth.qq.com/?,268435456]
+07-10 04:59:19.821   916  2054 I am_new_intent: [0,41008623,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,NULL,NULL,tencent1104922185://tauth.qq.com/?,268435456]
+07-10 04:59:19.831 30855 30855 I am_on_paused_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,performPause]
+07-10 04:59:19.841   916  1355 I am_restart_activity: [0,41008623,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity]
+07-10 04:59:19.842   916  1355 I am_set_resumed_activity: [0,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,minimalResumeActivityLocked]
+07-10 04:59:19.851   916   977 I sysui_count: [window_time_0,0]
+07-10 04:59:19.851   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:59:19.856   916  2054 I am_finish_activity: [0,41008623,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,clear-task-stack]
+07-10 04:59:19.856   916  2054 I am_pause_activity: [0,41008623,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,userLeaving=false]
+07-10 04:59:19.857   916  2054 I am_new_intent: [0,46549515,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,NULL,NULL,NULL,603979776]
+07-10 04:59:19.857   916  2054 I am_new_intent: [0,251652164,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,NULL,NULL,NULL,0]
+07-10 04:59:19.860   916   977 I sysui_count: [window_time_0,0]
+07-10 04:59:19.860   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:59:19.860   916   977 I sysui_multi_action: [757,1144,758,8,806,com.tencent.tmgp.speedmobile,871,com.tencent.tauth.AuthActivity]
+07-10 04:59:19.861 29461 29461 I am_on_create_called: [0,com.tencent.tauth.AuthActivity,performCreate]
+07-10 04:59:19.868   916  1355 I am_set_resumed_activity: [0,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,resumeTopActivityInnerLocked]
+07-10 04:59:19.921   916  1355 I configuration_changed: 536872064
+07-10 04:59:19.984   916  1355 I am_resume_activity: [0,251652164,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity]
+07-10 04:59:19.984   916  1116 I dvm_lock_sample: [system_server,1,android.anim,90,WindowAnimator.java,108,void com.android.server.wm.WindowAnimator.lambda$new$1(com.android.server.wm.WindowAnimator, long),ActivityStack.java,2610,boolean com.android.server.am.ActivityStack.resumeTopActivityInnerLocked(com.android.server.am.ActivityRecord, android.app.ActivityOptions),18]
+07-10 04:59:19.985   916  2054 I dvm_lock_sample: [system_server,1,Binder:916_9,60,WindowManagerService.java,6075,int com.android.server.wm.WindowManagerService.getNavBarPosition(),ActivityStack.java,2610,boolean com.android.server.am.ActivityStack.resumeTopActivityInnerLocked(com.android.server.am.ActivityRecord, android.app.ActivityOptions),12]
+07-10 04:59:19.996   916   977 I dvm_lock_sample: [system_server,1,ActivityManager,128,VrController.java,183,boolean com.android.server.am.VrController.onVrModeChanged(com.android.server.am.ActivityRecord),ActivityManagerService.java,8165,void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder),25]
+07-10 04:59:20.004   916   977 I sysui_count: [window_time_0,0]
+07-10 04:59:20.006   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:59:20.013 29461 29461 I am_on_restart_called: [0,com.tencent.tmgp.speedmobile.speedmobile,handleWindowVisibility]
+07-10 04:59:20.023 29461 29461 I am_on_start_called: [0,com.tencent.tmgp.speedmobile.speedmobile,handleWindowVisibility]
+07-10 04:59:20.024 29461 29461 I am_on_activity_result_called: [0,com.tencent.connect.common.AssistActivity,ACTIVITY_RESULT]
+07-10 04:59:20.025   916  2054 I am_finish_activity: [0,251652164,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,app-request]
+07-10 04:59:20.027   916  2054 I am_pause_activity: [0,251652164,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,userLeaving=false]
+07-10 04:59:20.029   916   977 I sysui_count: [window_time_0,0]
+07-10 04:59:20.029   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:59:20.031 29461 29461 I am_on_restart_called: [0,com.tencent.connect.common.AssistActivity,performRestartActivity]
+07-10 04:59:20.090   916  2054 I am_set_resumed_activity: [0,com.tencent.tmgp.speedmobile/.speedmobile,resumeTopActivityInnerLocked]
+07-10 04:59:20.092   916  2054 I am_resume_activity: [0,40588249,70,com.tencent.tmgp.speedmobile/.speedmobile]
+07-10 04:59:20.109   916   977 I dvm_lock_sample: [system_server,1,ActivityManager,20,ActivityManagerService.java,2416,void com.android.server.am.ActivityManagerService$MainHandler.handleMessage(android.os.Message),-,8165,void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder),4]
+07-10 04:59:20.110   916   977 I sysui_count: [window_time_0,0]
+07-10 04:59:20.110   916   977 I sysui_multi_action: [757,803,799,window_time_0,802,0]
+07-10 04:59:20.151 29461 29461 I am_on_activity_result_called: [0,com.tencent.tmgp.speedmobile.speedmobile,ACTIVITY_RESULT]
+07-10 04:59:20.158   916   977 I am_destroy_activity: [0,251652164,70,com.tencent.tmgp.speedmobile/com.tencent.connect.common.AssistActivity,finish-imm:activityIdleInternalLocked]
+07-10 04:59:20.158   916   977 I am_destroy_activity: [0,41008623,70,com.tencent.tmgp.speedmobile/com.tencent.tauth.AuthActivity,finish-imm:activityIdleInternalLocked]
+07-10 04:59:20.158   916   977 I am_destroy_activity: [0,150545499,70,com.tencent.mobileqq/cooperation.qzone.QzonePublishMoodProxyActivity,finish-imm:activityIdleInternalLocked]
+07-10 04:59:20.174 29461 29461 I am_on_resume_called: [0,com.tencent.tmgp.speedmobile.speedmobile,RESUME_ACTIVITY]
+07-10 04:59:20.190 29461 29461 I am_on_destroy_called: [0,com.tencent.connect.common.AssistActivity,performDestroy]
+07-10 04:59:20.201 29461 29461 I am_on_destroy_called: [0,com.tencent.tauth.AuthActivity,performDestroy]
+07-10 04:59:20.203 30855 30855 I am_on_stop_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,LIFECYCLER_STOP_ACTIVITY]
+07-10 04:59:20.244 30855 30855 I am_on_destroy_called: [0,cooperation.qzone.QzonePublishMoodProxyActivity,performDestroy]
+07-10 04:59:21.667 30906 30906 I auditd  : type=1400 audit(0.0:2645): avc: denied { read } for comm="Business_Handle" name="version" dev="proc" ino=4026532360 scontext=u:r:untrusted_app_27:s0:c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0
+
+
+
+
