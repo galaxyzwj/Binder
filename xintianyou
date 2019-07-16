@@ -1,0 +1,85 @@
+cn.com.xbscPhone3 信天游APP
+
+这一行是显示当输入000时显示出的所有的股票号码
+
+06-29 04:28:03.010  7217  7290 E DealData: [04:28:03]DealData:BinData=000001|平安银行|000002|万  科Ａ|000004|国农科技|000005|世纪星源|000006|深振业Ａ|000007|全新好|000008|神州高铁|000009|中国宝安|000010|*ST美丽|000011|深物业A|000012|南  玻Ａ|000014|沙河股份|000016|深康佳Ａ|000017|深中华A|000018|*ST神城|000019|深粮控股|000020|深华发Ａ|000021|深科技|000023|深天地Ａ|000025|特  力Ａ|000026|飞亚达Ａ|000027|深圳能源|000028|国药一致|000029|深深房Ａ|000030|富奥股份|000031|大悦城|000032|深桑达Ａ|000034|神州数码|000035|中国天楹|000036|华联控股|000037|深南电A|000038|深大通|000039|中集集团|000040|东旭蓝天|000042|中洲控股|000043|中航善达|000045|深纺织Ａ|000046|泛海控股|000048|*ST康达|000049|德赛电池|000050|深天马Ａ|000055|方大集团|000056|皇庭国际|000058|深 赛 格|000059|华锦股份|000060|中金岭南|000061|农 产 品|000062|深圳华强|000063|中兴通讯|000065|北方国际|000066|中国长城|000068|
+
+WebView的使用总结
+void loadUrl(String url):加载网络链接 url
+
+
+06-29 04:28:04.830  7217  7217 E sendData: [04:28:04]############### 117.34.12.27:7778 #############
+06-29 04:28:04.830  7217  7217 E Link    : [04:28:04]1====action=20109
+06-29 04:28:04.831  7217  7217 E StockType: [04:28:04]000007:0
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): ReqNum=352530083485391=35=0=0=0=042804.284
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): clientversion=3.08.008
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): Level=
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): ipadd=192.168.31.30
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): mobilekind=android 9
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): ReqNo=35
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): tztversion=3.0  =========>tzt版本V3.0
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): imsi=460091105103867
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): TFrom=newandroid
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): CFrom=XBsc.android
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): StartPos=0
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): phonemac=02:00:00:00:00:00
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): AccountIndex=2
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): phonekind=AOSP on msm8996   ===========> 显示手机的一些相关信息
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): imei=352530083485391    ===========> 条形码
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): Action=20109
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): NewMarketNo=0
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): connectiontype=WIFI   ============> 网络连接方式
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): uniqueid=A99C4C99-EA81-4D9A-8599-C61C60D92CBA
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): MobileType=3
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): StockCode=000007
+06-29 04:28:04.831  7217  7291 E ReqDataLink(Send): EmptyFields=Level&
+06-29 04:28:04.831  7217  7291 E nativeEncrypt: Java_com_tztEncrypt_enEncrypt13[2013-12-13 001]
+06-29 04:28:04.844  7217  7217 E wlz     : [04:28:04]4437
+06-29 04:28:04.863  7217  7290 E nativeEncrypt: Java_com_tztEncrypt_deEncrypt13[2013-12-13 001]
+06-29 04:28:04.864  7217  7290 E DealData: [04:28:04]DealData:ErrorMessage=0
+06-29 04:28:04.865  7217  7290 E DealData: [04:28:04]DealData:StockName=全新好
+
+
+strLogData表示实际获取到的数据
+06-29 04:28:05.533  7217  7290 E strLogData: StockName=全新好
+06-29 04:28:05.533  7217  7290 E strLogData: ThroughFlag=0
+06-29 04:28:05.533  7217  7290 E strLogData: GRID2=33.15|-335.13|301.98|
+06-29 04:28:05.533  7217  7290 E strLogData: 
+06-29 04:28:05.533  7217  7290 E strLogData: GRID3=日期|净流入(万元)|    ======== 数据
+06-29 04:28:05.533  7217  7290 E strLogData: 20190710|9.55|
+06-29 04:28:05.533  7217  7290 E strLogData: 20190711|-26.72|
+06-29 04:28:05.533  7217  7290 E strLogData: 20190712|-4.76|
+06-29 04:28:05.533  7217  7290 E strLogData: 20190715|-129.05|
+06-29 04:28:05.533  7217  7290 E strLogData: 20190716|-301.98|
+06-29 04:28:05.533  7217  7290 E strLogData: 
+06-29 04:28:05.533  7217  7290 E strLogData: StartPos=240
+06-29 04:28:05.533  7217  7290 E strLogData: TurnoverL2=1978.45 ====> 成交额
+06-29 04:28:05.533  7217  7290 E strLogData: ProductType=0
+06-29 04:28:05.533  7217  7290 E strLogData: TurnoverL1=19784472.00
+06-29 04:28:05.533  7217  7290 E strLogData: InstrumentType=0
+06-29 04:28:05.533  7217  7290 E strLogData: PricePoint=2
+06-29 04:28:05.533  7217  7290 E strLogData: ErrorNo=5
+06-29 04:28:05.533  7217  7290 E strLogData: VolPerHand=100
+06-29 04:28:05.533  7217  7290 E strLogData: PriceUnit=1000
+06-29 04:28:05.533  7217  7290 E strLogData: Action=20131
+06-29 04:28:05.533  7217  7290 E strLogData: NewMarketNo=4609
+06-29 04:28:05.533  7217  7290 E strLogData: StockProp=xxx00000000000000000000000000201
+06-29 04:28:05.533  7217  7290 E strLogData: Identity_Type=255
+06-29 04:28:05.533  7217  7290 E strLogData: SuspFlag=1
+06-29 04:28:05.533  7217  7290 E strLogData: iPhoneKey=1561753685485
+06-29 04:28:05.533  7217  7290 E strLogData: StockCode=000007
+06-29 04:28:05.533  7217  7290 E strLogData: ZxID=0
+06-29 04:28:05.533  7217  7290 E strLogData: MaxCount=1
+06-29 04:28:05.533  7217  7290 E strLogData: Reqno=36
+06-29 04:28:05.533  7217  7290 E strLogData: YClosePrice=6460
+06-29 04:28:05.533  7217  7290 E strLogData: MaketFlag=2
+06-29 04:28:05.533  7217  7290 E strLogData: CommMode=4609
+06-29 04:28:05.533  7217  7290 E strLogData: NetSum=-452.95
+06-29 04:28:05.533  7217  7290 E strLogData: Grid=分类|流入(万元)|流出(万元)|净流入(万元)|  ======= 获取到的数据
+06-29 04:28:05.533  7217  7290 E strLogData: 主力|195.20|497.18|-301.98|
+06-29 04:28:05.533  7217  7290 E strLogData: 机构|33.15|0.00|33.15|
+06-29 04:28:05.533  7217  7290 E strLogData: 大户|162.05|497.18|-335.13|
+06-29 04:28:05.533  7217  7290 E strLogData: 散户|1783.25|1481.27|301.98|
+06-29 04:28:05.533  7217  7290 E strLogData: 
+06-29 04:28:05.533  7217  7290 E strLogData: WarrantType=0
+06-29 04:28:05.533  7217  7290 E strLogData: Account=6
